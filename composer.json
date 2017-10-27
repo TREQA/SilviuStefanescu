@@ -1,0 +1,39 @@
+{
+  "name": "vendor_name/package_name",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "behat/behat": "3.2.x-dev",
+    "behat/mink": "1.7.x-dev",
+    "behat/mink-extension": "2.1.x-dev",
+    "behat/mink-selenium2-driver": "1.3.x-dev",
+    "peridot-php/webdriver-manager":"1.3.1",
+    "bossa/phpspec2-expect": "2.1.0",
+    "ciaranmcnulty/behat-stepthroughextension": "1.0.2",
+    "emuse/behat-html-formatter": "0.1.*",
+    "sensiolabs/behat-page-object-extension": "^2.0",
+    "bex/behat-screenshot": "1.2.6"
+  },
+  "config":{
+    "bin-dir" : "bin"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "BuyerTests\\":  "features/Buyer/BuyerContexts",
+      "AdminTests\\":  "features/Admin/AdminContexts",
+      "SellerTests\\": "features/Seller/SellerContexts",
+      "CommonTests\\": "features/Common/CommonContexts",
+      "UtilsPage\\":   "features/Utilities",
+      "BuyerPages\\":  "features/Buyer/PageObjects",
+      "SellerPages\\": "features/Seller/PageObjects",
+      "AdminPages\\":  "features/Admin/PageObjects"
+    }
+  }
+}

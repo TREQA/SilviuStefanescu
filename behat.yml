@@ -1,0 +1,84 @@
+default:
+  autoload:
+    - %paths.base%/features/Common/CommonContexts
+    - %paths.base%/features/Buyer/BuyerContexts
+    - %paths.base%/features/Seller/SellerContexts
+    - %paths.base%/features/Admin/AdminContexts
+
+  #Test suites run with bin\behat --suites=buyer_feature in project folder
+  suites:
+    buyer_features:
+      paths: [%paths.base%/features/Buyer/BuyerFeatures]
+      contexts: [BuyerTests\LoginContext, CommonTests\LoginContext, BuyerTests\HomePageContentContext, BuyerTests\BuyerAccountContext, BuyerTests\AnonCartContext, BuyerTests\AnonCompareContext, BuyerTests\AnonRestrictionsContext, BuyerTests\BuyerCartContext, BuyerTests\BuyerRestrictionsContext, BuyerTests\BuyerProductContext, BuyerTests\BuyerOrdersContext]
+    seller_features:
+      paths: [%paths.base%/features/Seller/SellerFeatures]
+      contexts: [SellerTests\ShippingRatesContext, CommonTests\LoginContext, SellerTests\LoginContext, SellerTests\CreateProductContext, SellerTests\OrdersContext,BuyerTests\LoginContext,BuyerTests\HomePageContentContext]
+    admin_features:
+      paths: [%paths.base%/features/Admin/AdminFeatures]
+      contexts: [AdminTests\LoginContext, AdminTests\CheckVersionContext, AdminTests\CreateProductContext, CommonTests\LoginContext, AdminTests\CreateVendorContext, AdminTests\SalesContext]
+    common_features:
+      paths: [%paths.base%/features/Common/CommonFeatures]
+      contexts: [SellerTests\ShippingRatesContext, CommonTests\LoginContext, AdminTests\LoginContext, AdminTests\CreateProductContext, AdminTests\CreateVendorContext, AdminTests\SalesContext, SellerTests\LoginContext, SellerTests\CreateProductContext, SellerTests\OrdersContext, BuyerTests\LoginContext, BuyerTests\BuyerCartContext, BuyerTests\HomePageContentContext, BuyerTests\BuyerAccountContext, BuyerTests\AnonCartContext, BuyerTests\AnonRestrictionsContext, BuyerTests\BuyerRestrictionsContext, BuyerTests\BuyerProductContext, BuyerTests\BuyerOrdersContext]
+
+  extensions:
+    Cjm\Behat\StepThroughExtension: ~
+    Behat\MinkExtension:
+      #https://market.dev.thingpark.com
+      #https://market.preprod.thingpark.com
+      base_url: "https://market.preprod.thingpark.com"
+      sessions:
+        default:
+          selenium2:
+            browser: "chrome"
+            wd_host: http://localhost:4444/wd/hub
+    SensioLabs\Behat\PageObjectExtension: ~
+
+#    #Generates screenshots on tests failure
+    Bex\Behat\ScreenshotExtension:
+      image_drivers:
+        local:
+          screenshot-directory: report/html/failedScreenshots
+          clear_screenshot_directory: true #clears the screenshot directory when a new test run starts
+
+#    #Used for the reports, if uncommented you will not see the debug in console
+#    emuse\BehatHTMLFormatter\BehatHTMLFormatterExtension:
+#      name: html
+#      renderer: Twig,Behat2
+#      file_name: index
+#      print_args: true
+#      print_outp: true
+#      loop_break: true
+#
+#  #Used for the reports, if uncommented you will not see the debug in console
+#  formatters:
+#    html:
+#      output_path: %paths.base%/report/html
+
+
+#firefox:
+#  extensions:
+#    Behat\MinkExtension:
+#      sessions:
+#        default:
+#          selenium2:
+#            browser: "firefox"
+#  #Used for the reports, if uncommented you will not see the debug in console
+#  formatters:
+#    html:
+#      output_path: %paths.base%/report/firefox
+
+
+#safari:
+#  extensions:
+#    Behat\MinkExtension:
+#      #https://market.dev.thingpark.com
+#      base_url: "https://market.preprod.thingpark.com/"
+#      sessions:
+#        default:
+#          selenium2:
+#            browser: "safari"
+#            wd_host: http://localhost:4444/wd/hub
+#  #Used for the reports, if uncommented you will not see the debug in console
+#  formatters:
+#    html:
+#      output_path: %paths.base%/report/safari
