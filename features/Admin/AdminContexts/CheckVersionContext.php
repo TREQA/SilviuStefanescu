@@ -35,21 +35,23 @@ class checkVersionContext extends RawMinkContext implements Context
     }
 
     /**
-     * @Then /^I will be logged in and will see version number "([^"]*)"$/
+     * @Then /^I will be logged in and will see version number$/
      */
-    public function iWillBeLoggedInAndWillSeeVersionNumber($arg1)
+    public function iWillBeLoggedInAndWillSeeVersionNumber1()
     {
         //check if there is an "Incoming Message" popup covering the content. If yes, I close the popup
         $hasmodal=$this->getSession()->getPage();
-
         if ($hasmodal->find('xpath', '//BUTTON[@class="action-close"]'))
         {
             $this->getSession()->getPage()->find('xpath','//BUTTON[@class="action-close"]')->click();
         }
-
-        $dashboard = $this->getSession()->getPage()->find('xpath', '//DIV[@class="col-m-12 text-right"]');
-
-        expect($dashboard->getText())->shouldBe($arg1);
+        //get the version text
+        $versionText = $this->getSession()->getPage()->find('xpath', '//DIV[@class="col-m-12 text-right"]')->getText();
+        //echo "VERSION: ".$versionText;
+        //regex validation
+        $regexValidation=preg_match('/(app ver. )\d[.]\d[.]\d/', $versionText);
+        echo "REGEX:".$regexValidation;
+        expect($regexValidation)->shouldBe(1);
     }
 }
 //P[@class="magento-version"][text()="app ver. 2.0.0"]

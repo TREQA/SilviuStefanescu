@@ -24,7 +24,8 @@ class Utils extends Page
         return $element;
     }
 
-    //if no file exists the tests will fail, a contor.txt file must be created in the specified path with a number that was not used before for account creation
+    //if no file exists the tests will fail, a contor.txt file must be created in the specified path
+    // with a number that was not used before for account creation
     public function incrementContor(){
         $filePath = 'C:/Selenium/contor.txt';
         $contorTxt = file_get_contents($filePath);

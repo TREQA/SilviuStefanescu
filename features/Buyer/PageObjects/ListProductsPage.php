@@ -14,7 +14,8 @@ use UtilsPage\DataItems;
 
 class ListProductsPage extends Utils
 {
-    const commonPath = "//*[@id=\"maincontent\"]/div[3]/div[1]/div[2]/div[2]/ol/li[1]";
+    const commonPath = "//*[@id=\"maincontent\"]/div[3]/div[1]/div[2]/div/ol/li[1]";
+    //Previous xPath: //*[@id="maincontent"]/div[3]/div[1]/div[2]/div[2]/ol/li[1]
     
     public function getFirstProduct(){
         return $this->waitUntilelementPresent(DataItems::waitTime,"xpath",self::commonPath."/div/a/img");
@@ -33,7 +34,7 @@ class ListProductsPage extends Utils
     }
 
     public function getFirstProductPrice(){
-        return $this->waitUntilelementPresent(DataItems::waitTime,"xpath",self::commonPath."//*[@class='price']");
+        return $this->waitUntilelementPresent(DataItems::waitTime,"xpath",self::commonPath."//*[@class='price-box price-final_price']");
     }
 
     public function getNoResultsMsg(){
@@ -134,11 +135,14 @@ class ListProductsPage extends Utils
     public function getProductsFromListing($expectedProductName){
 
         $productList = $this->waitUntilElementsPresent(DataItems::waitTime,"xpath","//*[@class=\"products list items product-items\"]/li/div/div/strong/a");
+        //echo for debug:
+        echo "PRDUCT PRODUCT LIST HAS ".count($productList)."ELEMENTS. ";
 
         for ($i=0; $i < count($productList); $i++){
             if (isset($expectedProductName[$i])){
                 $productName = $productList[$i]->getText();
-
+                //echo for debug:
+                echo "$productName";
                 if ($productName === $expectedProductName[$i]){
 
                     echo "Match";

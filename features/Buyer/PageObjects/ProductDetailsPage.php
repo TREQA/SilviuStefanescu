@@ -19,7 +19,8 @@ class ProductDetailsPage extends Utils
     }
 
     public function getAddToCartButton(){
-        return $this->findElement("xpath","//*[@id='product-addtocart-button']/span");
+        return $this->findElement("xpath","//*[@id='product-addtocart-button']");
+        //return $this->findElement("xpath","//*[@class='action tocart primary']");
     }
 
     public function getPrice(){
@@ -31,10 +32,11 @@ class ProductDetailsPage extends Utils
     }
 
     public function getPDFTableTitle(){
-        return $this->waitUntilElementPresentAndVisible(DataItems::waitTime,"xpath","//*[@id=\"product-attribute-specs-table\"]/tbody/tr[14]/th");
+        return $this->waitUntilElementPresentAndVisible(DataItems::waitTime,"xpath","//*[@id=\"product-attribute-specs-table\"]/tbody/tr[22]/th");
     }
     public function getFirstPDFlink(){
-        return $this->waitUntilElementPresentAndVisible(DataItems::waitTime,"xpath","//*[@data-th=\"Technical docs\"]/a");
+        return $this->waitUntilElementPresentAndVisible(DataItems::waitTime,"xpath","//*[@data-th=\"Technical docs\"]/ul/li/a");
+
     }
 
     //elements return null if not found

@@ -45,7 +45,10 @@ class BuyerValues
 
     //Buyer/Anon Products Filtering
 
-    const expectedProducts = ['AUTOMATEDLISTINGVENDORPRODUCT1'];
+    //previous value
+//    const expectedProducts = ['AUTOMATEDLISTINGVENDORPRODUCT1'];
+    //new value
+    const expectedProducts = ['GLOBALSAT LORAWAN MINIPCIE CARD LD-11E EU868'];
     const sortByOptions = ['                Position            ',
                            '                Name            ',
                            '                Unit Price            ',

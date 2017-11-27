@@ -14,6 +14,9 @@ use BuyerPages\HomePage;
 class AnonCompareContext extends RawMinkContext implements Context {
 
     private $homePage;
+    //$itemname will store item name returned by one method to be used by another method
+    private $itemName='';
+
     public function __construct(
         HomePage $homePage
     )
@@ -22,19 +25,35 @@ class AnonCompareContext extends RawMinkContext implements Context {
     }
 
     /**
-     * @Given /^I click on Devices$/
+     * @When /^I click on "([^"]*)" page$/  
      */
-    public function iClickOnDevices()
+    public function iClickOnPage($productpage)
     {
-        $this->homePage->getDevicesMenuOption()->click();
+      
+        //pt debug
+        echo "PRODUS:".$productpage;
+     
+        switch ($productpage) {
+            case "Devices":
+                $this->homePage->getDevicesMenuOption()->click();
+                break;
+            case "Gateways":
+                $this->homePage->getGatewaysMenuOption()->click();
+                break;
+            case "ThingPark":
+                $this->homePage->getThingParkConnectedMenuOption()->click();
+                break;
+        }
     }
 
     /**
-     * @Given /^I click on product Add to Compare icon$/
+     * @Given /^I click on products Add to Compare icon$/
      */
-    public function iClickOnProductAddToCompareIcon()
+    public function iClickOnProductsAddToCompareIcon()
     {
-        $this->homePage->getAddToCompareButton()->click();
+        //$results_array = $this->homePage->getProductNameAndAddToCompareButton();
+        //$results_array[0]->click();
+         $this->itemName=$this->homePage->getProductNameAndAddToCompare();
     }
 
     /**
@@ -43,8 +62,17 @@ class AnonCompareContext extends RawMinkContext implements Context {
     public function theConfirmationMessageWillBeShown()
     {
         $confirmation_message=$this->homePage->getAddToCompareConfirmation()->getText();
-        $confirmation_message=substr($confirmation_message, 0, 16);
-        $should_be="You added product";
-        expect($confirmation_message)->shouldBe($confirmation_message);
+        $should_be="You added product ".$this->itemName." to the comparison list.";
+        expect(strtoupper($confirmation_message))->shouldBe(strtoupper($should_be));
+    }
+
+    /**
+     * @Given /^Compare Products link with counter is updated$/
+     */
+    public function compareProductsLinkWithCounterIsUpdated()
+    {
+        $compareProductsLink=$this->homePage->getCompareProductsQuantity()->getText();
+        //echo "Compare products link: ".$compareProductsLink;
+        expect($compareProductsLink)->shouldNotBe('');
     }
 }

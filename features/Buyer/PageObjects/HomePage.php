@@ -19,7 +19,8 @@ class HomePage extends Utils
     }
 
     public function getFirstTopProduct(){
-        return $this->findElement("xpath","//*[@class='product-items widget-product-grid']/li[1]");
+        return $this->findElement("xpath","//*[@class='product-items widget-product-grid']/li[1]/div[1]/a[1]");
+        //"/div[1]/a[1]" in xpath added by SilviuS
     }
 
     public function getFirstTopProductFavorite(){
@@ -126,7 +127,11 @@ class HomePage extends Utils
                 if ($foundTitle === $expectedTitles[$i] and $foundUrl === $expectedUrls[$i]){
 
                     echo "Match URL and Title \r\n";
-                }else {
+
+                }
+                else {
+                    //throw exception unless we are at Solutions nav-section, which currently does not have its own page
+                    if (!(($foundTitle=="ThingPark Connected")&&($expectedTitles[$i]=="Solutions")))
                     throw new \RuntimeException(sprintf('Mismatch URL or Title'));
                 }
             }else {
@@ -138,7 +143,7 @@ class HomePage extends Utils
 ##############################  Individual Menu Buttons
 
     public function getDevicesMenuOption(){
-        return $this->waitUntilElementPresent(DataItems::waitTime,"xpath","//*[@class=\"sections nav-sections\"]//*[@class=\"navigation\"]/ul/li/a/span[contains(text(),\"Devices\")]");
+        return $this->waitUntilElementPresent(DataItems::waitTime,"xpath","//*[@class=\"sections nav-sections\"]//*[@class=\"navigation\"]/ul/li/a/span[2][contains(text(),\"Devices\")]");
     }
 
     public function getGatewaysMenuOption(){
@@ -236,17 +241,32 @@ class HomePage extends Utils
             }
         }
     }
-
-
-    ##############################  SilviuS: Get Product Add to Compare Button
-    public function getAddToCompareButton(){
+    ##############################  SilviuS: Get Product Name and Add-to-Compare Button, from the same product item DIV
+    public function getProductNameAndAddToCompare($prodNo){
         $element = $this->getSession()->getPage()->find("xpath", "//*[@class=\"product-item-info\"]");
         $element->mouseOver();
-        return $this->waitUntilElementPresent(DataItems::waitTime,"xpath","//*[@class=\"action tocompare\"]");
+        //store button element in object
+        $AddToCompareButtonObject=$this->waitUntilElementPresent(DataItems::waitTime,"xpath","//*[@class=\"action tocompare\"]");
+        $prodName = $AddToCompareButtonObject->getText();
+        $AddToCompareButtonObject->click();
+        return $prodName;
+        //*[@id="maincontent"]/div[4]/div[1]/div[3]/ol/li[".$prodNo."]/div/div[1]/a[2]
+        //*[@id="maincontent"]/div[4]/div[1]/div[3]/ol/li[2]/div/div[1]/a[2]
+        /*//store product description in string
+        $product_description=$element->find("xpath", "//*[@class=\"product name product-item-name\"]")->getText();
+        //store button element and product description in array
+        $results[0]=$AddToCompareButtonObject;
+        $results[1]=$product_description;*/
+        //return $results;
     }
 
     ##############################  SilviuS: Get Added to Compare Confirmation Message
     public function getAddToCompareConfirmation(){
         return $this->waitUntilElementPresentAndVisible(DataItems::waitTime,"xpath","//*[@class=\"message-success success message\"]");
+    }
+
+    ##############################  SilviuS: Get Compare-Products counter
+    public function getCompareProductsQuantity(){
+        return $this->waitUntilElementPresentAndVisible(DataItems::waitTime,"xpath","//*[@class=\"counter qty\"]");
     }
 }

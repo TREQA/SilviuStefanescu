@@ -57,6 +57,9 @@ class AnonRestrictionsContext extends RawMinkContext implements Context
         $this->listProductsPage = $listProductsPage;
     }
 
+    
+       
+    
     /**
      * @Then /^I am prompted to login or Create a new account$/
      */

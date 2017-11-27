@@ -75,15 +75,20 @@ class BuyerAccountContext extends RawMinkContext implements Context
 //        $this->createNewAccPage->getNewsLetterBox()->check();
 //        $this->createNewAccPage->getTaxtVatField()->setValue('150');
         $this->createNewAccPage->getEmailField()->setValue($incremental.DataItems::dummyEmail);
+        echo "1";
         $this->createNewAccPage->getPasswordField()->setValue(DataItems::dummyPassword);
+        echo "2";
         $this->createNewAccPage->getConfirmPassField()->setValue(DataItems::dummyPassword);
         expect($this->createNewAccPage->getRememberMeBox()->isChecked())->shouldBe(true);
-
+        echo "3";
         $this->registerPage->iSwitchToTheFirstIframe();
+        echo "4";
         $this->registerPage->getReCaptcha()->click();
+        echo "5";
         $this->registerPage->getCaptchaChecked();
+        echo "6";
         $this->getSession()->switchToIFrame();
-
+        echo "7";
     }
 
     /**
@@ -311,7 +316,7 @@ class BuyerAccountContext extends RawMinkContext implements Context
     {
         $contor = $this->utils->getContor();
         $this->getSession()->getPage()->fillField('email',$contor.DataItems::dummyEmail);
-        $this->getSession()->getPage()->fillField('pass',DataItems::dummyPassword);
+        $this->getSession()->getPage()->fillField('pass',DataItems::dummyOldPassword);
     }
 
     /**

@@ -60,7 +60,7 @@ final class Versions
   'webmozart/assert' => '1.2.0@2db61e59ff05fe5126d152bd0655c9ea113e550f',
   'zendframework/zend-code' => '3.1.0@2899c17f83a7207f2d7f53ec2f421204d3beea27',
   'zendframework/zend-eventmanager' => '3.2.0@9d72db10ceb6e42fb92350c0cb54460da61bd79c',
-  'vendor_name/package_name' => '1.0.0.0@',
+  'vendor_name/package_name' => '9999999-dev@521282a011bddc41fdfe84b7db4e18b8e2bfca23',
 );
 
     private function __construct()

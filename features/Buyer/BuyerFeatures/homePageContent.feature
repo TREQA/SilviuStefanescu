@@ -4,10 +4,12 @@ Feature: Verify that an anonymus user can browse the website
   As an anonymous/buyer user
   I need to see website available content
 
+
+  @javascript @insulated
   Scenario: Page Content Check
     Given I am an anonymus user
     When I go to to thingpark webpage
-    Then I can see the link to "become a Seller !"
+    Then I can see the link to "click here !"
     And I can see the search option
     And I can see the logo
 #    And I can see "My Account" to be continued
@@ -28,12 +30,12 @@ Feature: Verify that an anonymus user can browse the website
     Given I am an anonymous user
     Then I can access the Menu Options
 
-  @javascript @insulated
+  @javascript @insulated @wednesday
   Scenario: Verify that a logged in buyer can see products from multiple vendors
     Given I am logged in as "buyer"
     And I click on "Devices" menu option
     Then I select "Seller" from Filtering Options
-    And I click on "Automated Listing Vendor" Seller from Sub Filtering Option
+    And I click on "EUROCOMPOSANT" Seller from Sub Filtering Option
     And I click on show "all" items per page
     Then I should see only products from Automated Listing Vendor
 

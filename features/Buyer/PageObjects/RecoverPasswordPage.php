@@ -14,12 +14,12 @@ use UtilsPage\Utils;
 
 class RecoverPasswordPage extends Utils
 {
-    public function getPageMessage(){
-        return $this->waitUntilElementPresentAndVisible(DataItems::waitTime,"xpath","//*[@id='mainInfo']");
+    public function     getPageMessage(){
+        return $this->waitUntilElementPresentAndVisible(DataItems::waitTime,"xpath","//*[@class='field note']");
     }
 
     public function getEmailField(){
-        return $this->findElement("xpath","//*[@id='loginEmail']");
+        return $this->findElement("xpath","//*[@id='email_address']");
     }
 
     public function getCaptchaField(){

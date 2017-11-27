@@ -349,3 +349,2482 @@ I must be able to add to my cart</p>
                     <span class="title">Empty Cart</span>
                 </h3>
                 <ol>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Given </span>
+                            <span class="text">I am an anonymous user </span>
+                            <span class="path">BuyerTests\LoginContext::iAmAnAnonymousUser()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">When </span>
+                            <span class="text">I click on My Cart </span>
+                            <span class="path">BuyerTests\AnonCartContext::iClickOnMyCart()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">the message "You have no items in your shopping cart." will be shown. </span>
+                            <span class="path">BuyerTests\AnonCartContext::theMessageWillBeShown()</span>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="scenario">
+                <ul class="tags">
+                    <li>@javascript</li>
+                    <li>@insulated</li>
+                </ul>
+                <h3>
+                    <span class="keyword"> Scenario: </span>
+                    <span class="title">Adding product to My Cart</span>
+                </h3>
+                <ol>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Given </span>
+                            <span class="text">I am an anonymous user </span>
+                            <span class="path">BuyerTests\LoginContext::iAmAnAnonymousUser()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">When </span>
+                            <span class="text">I click on a product </span>
+                            <span class="path">BuyerTests\AnonCartContext::iClickOnAProduct()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I click on add to cart </span>
+                            <span class="path">BuyerTests\AnonCartContext::iClickOnAddToCart()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">a number is added next to my cart based on product quantities </span>
+                            <span class="path">BuyerTests\AnonCartContext::aNumberIsAddedNextToMyCartBasedOnProductQuantities()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">a confirmation message is shown </span>
+                            <span class="path">BuyerTests\AnonCartContext::aConfirmationMessageIsShown()</span>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="scenario">
+                <ul class="tags">
+                    <li>@javascript</li>
+                    <li>@insulated</li>
+                </ul>
+                <h3>
+                    <span class="keyword"> Scenario: </span>
+                    <span class="title">Details on product added to My Cart</span>
+                </h3>
+                <ol>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Given </span>
+                            <span class="text">I am an anonymous user </span>
+                            <span class="path">BuyerTests\LoginContext::iAmAnAnonymousUser()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">When </span>
+                            <span class="text">I click on a product </span>
+                            <span class="path">BuyerTests\AnonCartContext::iClickOnAProduct()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I click on add to cart </span>
+                            <span class="path">BuyerTests\AnonCartContext::iClickOnAddToCart()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I click on My Cart </span>
+                            <span class="path">BuyerTests\AnonCartContext::iClickOnMyCart()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I see the number of items </span>
+                            <span class="path">BuyerTests\AnonCartContext::iSeeTheNumberOfItems()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I see the Cart Subtotal </span>
+                            <span class="path">BuyerTests\AnonCartContext::iSeeTheCartSubtotal()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I see the Go to Checkout option </span>
+                            <span class="path">BuyerTests\AnonCartContext::iSeeTheGoToCheckoutOption()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I see the Edit item button </span>
+                            <span class="path">BuyerTests\AnonCartContext::iSeeTheEditItemButton()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I see the Delete item button </span>
+                            <span class="path">BuyerTests\AnonCartContext::iSeeTheDeleteItemButton()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I see the View and edit card link </span>
+                            <span class="path">BuyerTests\AnonCartContext::iSeeTheViewAndEditCardLink()</span>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="scenario">
+                <ul class="tags">
+                    <li>@javascript</li>
+                    <li>@insulated</li>
+                </ul>
+                <h3>
+                    <span class="keyword"> Scenario: </span>
+                    <span class="title">Verify that add to cart is shown on the listing page</span>
+                </h3>
+                <ol>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Given </span>
+                            <span class="text">I am an anonymous user </span>
+                            <span class="path">BuyerTests\LoginContext::iAmAnAnonymousUser()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">When </span>
+                            <span class="text">I add to cart the "TestAutoDeviceProd" product from listing page </span>
+                            <span class="path">BuyerTests\AnonCartContext::iAddToCartTheProductFromListingPage()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">a number is added next to my cart based on product quantities </span>
+                            <span class="path">BuyerTests\AnonCartContext::aNumberIsAddedNextToMyCartBasedOnProductQuantities()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">a confirmation message is shown </span>
+                            <span class="path">BuyerTests\AnonCartContext::aConfirmationMessageIsShown()</span>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="featureResult passed">Feature has passed
+            </div>
+        </div>
+        <div class="feature">
+            <h2>
+                <span id="feat2" class="keyword"> Feature: </span>
+                <span class="title">Verify that an anonymous user can add products to compare</span>
+            </h2>
+            <p>In order to compare products
+As an anonymous user
+I must be able to add products to compare</p>
+            <ul class="tags">
+            </ul>
+            <div class="scenario">
+                <ul class="tags">
+                    <li>@javascript</li>
+                    <li>@insulated</li>
+                </ul>
+                <h3>
+                    <span class="keyword"> Scenario: </span>
+                    <span class="title">Verify that an anonymus user can add to compare</span>
+                </h3>
+                <ol>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Given </span>
+                            <span class="text">I am an anonymous user </span>
+                            <span class="path">BuyerTests\LoginContext::iAmAnAnonymousUser()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">When </span>
+                            <span class="text">I click on "Devices" page </span>
+                            <span class="path">BuyerTests\AnonCompareContext::iClickOnPage()</span>
+                        </div>
+                    </li>
+                    <li class="failed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I click on products Add to Compare icon </span>
+                            <span class="path">BuyerTests\AnonCompareContext::iClickOnProductsAddToCompareIcon()</span>
+                        </div>
+                        <pre class="backtrace">Warning: Missing argument 1 for ProxyManagerGeneratedProxy\__PM__\BuyerPages\HomePage\Generatedb670122fead0d9c970784e8b9100336b::getProductNameAndAddToCompare(), called in C:\Users\Dale Putley\Dropbox\Lucru\Tremend\behat\behat_test_silviu\features\Buyer\BuyerContexts\AnonCompareContext.php on line 56 and defined in C:\Users\Dale Putley\AppData\Local\Temp\ProxyManagerGeneratedProxy__PM__BuyerPagesHomePageGeneratedb670122fead0d9c970784e8b9100336b.php line 460</pre>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">The confirmation message will be shown. </span>
+                            <span class="path">BuyerTests\AnonCompareContext::theConfirmationMessageWillBeShown()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">Compare Products link with counter is updated </span>
+                            <span class="path">BuyerTests\AnonCompareContext::compareProductsLinkWithCounterIsUpdated()</span>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="featureResult failed">Feature has failed
+                <span>Scenarios passed : 0%, 
+                Scenarios failed : 100%</span>
+            </div>
+        </div>
+        <div class="feature">
+            <h2>
+                <span id="feat3" class="keyword"> Feature: </span>
+                <span class="title">Check Anonymous users restrictions</span>
+            </h2>
+            <p>In order access some of the website functionality
+As an anonymous user
+I must be prompted to login or create a new account</p>
+            <ul class="tags">
+            </ul>
+            <div class="scenario">
+                <ul class="tags">
+                    <li>@javascript</li>
+                    <li>@insulated</li>
+                </ul>
+                <h3>
+                    <span class="keyword"> Scenario: </span>
+                    <span class="title">Verify that an anonymus user cannot add to wishlist</span>
+                </h3>
+                <ol>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Given </span>
+                            <span class="text">I am an anonymous user </span>
+                            <span class="path">BuyerTests\LoginContext::iAmAnAnonymousUser()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I add to wishlist the "TestAutoDeviceProd" product from listing page </span>
+                            <span class="path">BuyerTests\AnonRestrictionsContext::iAddToWishlistTheProductFromListingPage()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I am prompted to login or Create a new account </span>
+                            <span class="path">BuyerTests\AnonRestrictionsContext::iAmPromptedToLoginOrCreateANewAccount()</span>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="scenario">
+                <ul class="tags">
+                    <li>@javascript</li>
+                    <li>@insulated</li>
+                </ul>
+                <h3>
+                    <span class="keyword"> Scenario: </span>
+                    <span class="title">Verify that an anonymus user cannot add to wishlist via product details</span>
+                </h3>
+                <ol>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Given </span>
+                            <span class="text">I am an anonymous user </span>
+                            <span class="path">BuyerTests\LoginContext::iAmAnAnonymousUser()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I click on a product </span>
+                            <span class="path">BuyerTests\AnonCartContext::iClickOnAProduct()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I add it to favorite </span>
+                            <span class="path">BuyerTests\AnonRestrictionsContext::iAddItToFavorite()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I am prompted to login or Create a new account </span>
+                            <span class="path">BuyerTests\AnonRestrictionsContext::iAmPromptedToLoginOrCreateANewAccount()</span>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="scenario">
+                <ul class="tags">
+                    <li>@javascript</li>
+                    <li>@insulated</li>
+                </ul>
+                <h3>
+                    <span class="keyword"> Scenario: </span>
+                    <span class="title">Verify that an anonymus user can add to cart and when they go to checkout they are prompted to create a new user or log in</span>
+                </h3>
+                <ol>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Given </span>
+                            <span class="text">I am an anonymous user </span>
+                            <span class="path">BuyerTests\LoginContext::iAmAnAnonymousUser()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I click on a product </span>
+                            <span class="path">BuyerTests\AnonCartContext::iClickOnAProduct()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I click on add to cart </span>
+                            <span class="path">BuyerTests\AnonCartContext::iClickOnAddToCart()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I click on My Cart </span>
+                            <span class="path">BuyerTests\AnonCartContext::iClickOnMyCart()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I click on Go to Checkout button </span>
+                            <span class="path">BuyerTests\AnonRestrictionsContext::iClickOnGoToCheckoutButton()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I am prompted to checkout as a new customer or checkout using an existing account </span>
+                            <span class="path">BuyerTests\AnonRestrictionsContext::iAmPromptedToCheckoutAsANewCustomerOrCheckoutUsingAnExistingAccount()</span>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="scenario">
+                <ul class="tags">
+                    <li>@javascript</li>
+                    <li>@insulated</li>
+                </ul>
+                <h3>
+                    <span class="keyword"> Scenario: </span>
+                    <span class="title">Verify that an anonymus user can add to cart and when they go to View and Edit and then checkout they are prompted to create a new user or log in</span>
+                </h3>
+                <ol>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Given </span>
+                            <span class="text">I am an anonymous user </span>
+                            <span class="path">BuyerTests\LoginContext::iAmAnAnonymousUser()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I click on a product </span>
+                            <span class="path">BuyerTests\AnonCartContext::iClickOnAProduct()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I click on add to cart </span>
+                            <span class="path">BuyerTests\AnonCartContext::iClickOnAddToCart()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I click on My Cart </span>
+                            <span class="path">BuyerTests\AnonCartContext::iClickOnMyCart()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I click on View and Edit </span>
+                            <span class="path">BuyerTests\AnonCartContext::iClickOnViewAndEdit()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I click on Proceed to Checkout </span>
+                            <span class="path">BuyerTests\AnonCartContext::iClickOnProceedToCheckout()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I am prompted to checkout as a new customer or checkout using an existing account </span>
+                            <span class="path">BuyerTests\AnonRestrictionsContext::iAmPromptedToCheckoutAsANewCustomerOrCheckoutUsingAnExistingAccount()</span>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="scenario">
+                <ul class="tags">
+                    <li>@javascript</li>
+                    <li>@insulated</li>
+                </ul>
+                <h3>
+                    <span class="keyword"> Scenario: </span>
+                    <span class="title">Verify that a visitor is not able to download PDF's from products, but is prompted to log in in order to perform action</span>
+                </h3>
+                <ol>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Given </span>
+                            <span class="text">I am an anonymous user </span>
+                            <span class="path">BuyerTests\LoginContext::iAmAnAnonymousUser()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I search for "Minimum qty"; </span>
+                            <span class="path">BuyerTests\BuyerRestrictionsContext::iSearchFor()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I click on first search result </span>
+                            <span class="path">BuyerTests\BuyerRestrictionsContext::iClickOnFirstSearchResult()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I click on technical doc pdf link </span>
+                            <span class="path">BuyerTests\AnonRestrictionsContext::iClickOnTechnicalDocPdfLink()</span>
+                        </div>
+                    </li>
+                    <li class="failed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">A pop-up appears to login or Create a new account in order to view content </span>
+                            <span class="path">BuyerTests\AnonRestrictionsContext::aPopUpAppearsToLoginOrCreateANewAccountInOrderToViewContent()</span>
+                        </div>
+                        <pre class="backtrace">Could not find element //*[contains(text(),'Only registered customers can access this content.')]</pre>
+                    </li>
+                </ol>
+            </div>
+            <div class="featureResult failed">Feature has failed
+                <span>Scenarios passed : 80%, 
+                Scenarios failed : 20%</span>
+            </div>
+        </div>
+        <div class="feature">
+            <h2>
+                <span id="feat4" class="keyword"> Feature: </span>
+                <span class="title">Create Account Feature</span>
+            </h2>
+            <p>In order to login with a new account
+As an anonymous user
+I must be able to create a new account and use it</p>
+            <ul class="tags">
+            </ul>
+            <div class="scenario">
+                <ul class="tags">
+                    <li>@javascript</li>
+                    <li>@insulated</li>
+                </ul>
+                <h3>
+                    <span class="keyword"> Scenario: </span>
+                    <span class="title">Verify that an anonymus user can create a buyer account</span>
+                </h3>
+                <ol>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Given </span>
+                            <span class="text">I am an anonymous user </span>
+                            <span class="path">BuyerTests\LoginContext::iAmAnAnonymousUser()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">When </span>
+                            <span class="text">I go to to myAccount page </span>
+                            <span class="path">BuyerTests\BuyerAccountContext::iGoToToMyAccountPage()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I click on Create an Account </span>
+                            <span class="path">BuyerTests\BuyerAccountContext::iClickOnCreateAnAccount()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I am redirected to account creation page </span>
+                            <span class="path">BuyerTests\BuyerAccountContext::iAmRedirectedToAccountCreationPage()</span>
+                        </div>
+                    </li>
+                    <li class="failed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I put in my account information </span>
+                            <span class="path">BuyerTests\BuyerAccountContext::iPutInMyAccountInformation()</span>
+                        </div>
+                        <pre class="backtrace">Warning: file_get_contents(C:/Selenium/contor.txt): failed to open stream: No such file or directory in C:\Users\Dale Putley\Dropbox\Lucru\Tremend\behat\behat_test_silviu\features\Utilities\Utils.php line 31</pre>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I click on create account </span>
+                            <span class="path">BuyerTests\BuyerAccountContext::iClickOnCreateAccount()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I will see confirmation </span>
+                            <span class="path">BuyerTests\BuyerAccountContext::iWillSeeConfirmation1()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I will be logged in and see "My Dashboard" </span>
+                            <span class="path">BuyerTests\LoginContext::iWillBeLoggedInAndSee()</span>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="scenario">
+                <ul class="tags">
+                    <li>@javascript</li>
+                    <li>@insulated</li>
+                </ul>
+                <h3>
+                    <span class="keyword"> Scenario: </span>
+                    <span class="title">Verify that a newly created user can log in as a buyer</span>
+                </h3>
+                <ol>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Given </span>
+                            <span class="text">I am an anonymous user </span>
+                            <span class="path">BuyerTests\LoginContext::iAmAnAnonymousUser()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">When </span>
+                            <span class="text">I go to to myAccount page </span>
+                            <span class="path">BuyerTests\BuyerAccountContext::iGoToToMyAccountPage()</span>
+                        </div>
+                    </li>
+                    <li class="failed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I input my newly created username and password </span>
+                            <span class="path">BuyerTests\BuyerAccountContext::iInputMyNewlyCreatedUsernameAndPassword()</span>
+                        </div>
+                        <pre class="backtrace">Warning: file_get_contents(C:/Selenium/contor.txt): failed to open stream: No such file or directory in C:\Users\Dale Putley\Dropbox\Lucru\Tremend\behat\behat_test_silviu\features\Utilities\Utils.php line 37</pre>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">When </span>
+                            <span class="text">I click sign in button </span>
+                            <span class="path">BuyerTests\LoginContext::iClickSignInButton()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I will be logged in and see "My Dashboard" </span>
+                            <span class="path">BuyerTests\LoginContext::iWillBeLoggedInAndSee()</span>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="scenario">
+                <ul class="tags">
+                    <li>@javascript</li>
+                    <li>@insulated</li>
+                </ul>
+                <h3>
+                    <span class="keyword"> Scenario: </span>
+                    <span class="title">Verify that a logged in buyer can change his password from my account.</span>
+                </h3>
+                <ol>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Given </span>
+                            <span class="text">I am an anonymous user </span>
+                            <span class="path">BuyerTests\LoginContext::iAmAnAnonymousUser()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">When </span>
+                            <span class="text">I go to to myAccount page </span>
+                            <span class="path">BuyerTests\BuyerAccountContext::iGoToToMyAccountPage()</span>
+                        </div>
+                    </li>
+                    <li class="failed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I input my newly created username and password </span>
+                            <span class="path">BuyerTests\BuyerAccountContext::iInputMyNewlyCreatedUsernameAndPassword()</span>
+                        </div>
+                        <pre class="backtrace">Warning: file_get_contents(C:/Selenium/contor.txt): failed to open stream: No such file or directory in C:\Users\Dale Putley\Dropbox\Lucru\Tremend\behat\behat_test_silviu\features\Utilities\Utils.php line 37</pre>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">When </span>
+                            <span class="text">I click sign in button </span>
+                            <span class="path">BuyerTests\LoginContext::iClickSignInButton()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I go to "Account Information" page </span>
+                            <span class="path">BuyerTests\BuyerAccountContext::iGoToPage()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I check the change password box </span>
+                            <span class="path">BuyerTests\BuyerAccountContext::iCheckTheChangePasswordBox()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I change my password and save </span>
+                            <span class="path">BuyerTests\BuyerAccountContext::iChangeMyPasswordAndSave()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I will see update confirmation message "You saved the account information." </span>
+                            <span class="path">BuyerTests\BuyerAccountContext::iWillSeeUpdateConfirmationMessage1()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I logout </span>
+                            <span class="path">BuyerTests\BuyerAccountContext::iLogout()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">When </span>
+                            <span class="text">I input my new credentials </span>
+                            <span class="path">BuyerTests\BuyerAccountContext::iInputMyNewCredentials()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I click sign in button </span>
+                            <span class="path">BuyerTests\LoginContext::iClickSignInButton()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I will be logged in and see "My Dashboard" </span>
+                            <span class="path">BuyerTests\LoginContext::iWillBeLoggedInAndSee()</span>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="scenario">
+                <ul class="tags">
+                    <li>@javascript</li>
+                    <li>@insulated</li>
+                </ul>
+                <h3>
+                    <span class="keyword"> Scenario: </span>
+                    <span class="title">Verify that a logged in buyer cannot login with an old password</span>
+                </h3>
+                <ol>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Given </span>
+                            <span class="text">I am an anonymous user </span>
+                            <span class="path">BuyerTests\LoginContext::iAmAnAnonymousUser()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">When </span>
+                            <span class="text">I go to to myAccount page </span>
+                            <span class="path">BuyerTests\BuyerAccountContext::iGoToToMyAccountPage()</span>
+                        </div>
+                    </li>
+                    <li class="failed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I input my old password </span>
+                            <span class="path">BuyerTests\BuyerAccountContext::iInputMyOldPassword()</span>
+                        </div>
+                        <pre class="backtrace">Warning: file_get_contents(C:/Selenium/contor.txt): failed to open stream: No such file or directory in C:\Users\Dale Putley\Dropbox\Lucru\Tremend\behat\behat_test_silviu\features\Utilities\Utils.php line 37</pre>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I click sign in button </span>
+                            <span class="path">BuyerTests\LoginContext::iClickSignInButton()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I am notified that username or password is invalid </span>
+                            <span class="path">BuyerTests\LoginContext::iAmNotifiedThatUsernameOrPasswordIsInvalid()</span>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="scenario">
+                <ul class="tags">
+                    <li>@javascript</li>
+                    <li>@insulated</li>
+                    <li>@repairing</li>
+                </ul>
+                <h3>
+                    <span class="keyword"> Scenario: </span>
+                    <span class="title">Verify that a logged in buyer can change his account information</span>
+                </h3>
+                <ol>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Given </span>
+                            <span class="text">I am an anonymous user </span>
+                            <span class="path">BuyerTests\LoginContext::iAmAnAnonymousUser()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">When </span>
+                            <span class="text">I go to to myAccount page </span>
+                            <span class="path">BuyerTests\BuyerAccountContext::iGoToToMyAccountPage()</span>
+                        </div>
+                    </li>
+                    <li class="failed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I input my newly created username and changed password </span>
+                            <span class="path">BuyerTests\BuyerAccountContext::iInputMyNewlyCreatedUsernameAndChangedPassword()</span>
+                        </div>
+                        <pre class="backtrace">Warning: file_get_contents(C:/Selenium/contor.txt): failed to open stream: No such file or directory in C:\Users\Dale Putley\Dropbox\Lucru\Tremend\behat\behat_test_silviu\features\Utilities\Utils.php line 37</pre>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I click sign in button </span>
+                            <span class="path">BuyerTests\LoginContext::iClickSignInButton()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I click on Edit button from My Account information </span>
+                            <span class="path">BuyerTests\BuyerAccountContext::iClickOnEditButtonFromMyAccountInformation()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I am redirected to "Edit Account Information" page </span>
+                            <span class="path">BuyerTests\BuyerAccountContext::iAmRedirectedToPage()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I check the change e-mail box </span>
+                            <span class="path">BuyerTests\BuyerAccountContext::iCheckTheChangeEMailBox()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I change my account information </span>
+                            <span class="path">BuyerTests\BuyerAccountContext::iChangeMyAccountInformation()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I save the changes </span>
+                            <span class="path">BuyerTests\BuyerAccountContext::iSaveTheChanges()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I will see update confirmation message "You saved the account information." </span>
+                            <span class="path">BuyerTests\BuyerAccountContext::iWillSeeUpdateConfirmationMessage1()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I logout </span>
+                            <span class="path">BuyerTests\BuyerAccountContext::iLogout()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">When </span>
+                            <span class="text">I input my new e-mail and password </span>
+                            <span class="path">BuyerTests\BuyerAccountContext::iInputMyNewEMailAndPassword()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I click sign in button </span>
+                            <span class="path">BuyerTests\LoginContext::iClickSignInButton()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I click on Edit button from My Account information </span>
+                            <span class="path">BuyerTests\BuyerAccountContext::iClickOnEditButtonFromMyAccountInformation()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I check the change e-mail box </span>
+                            <span class="path">BuyerTests\BuyerAccountContext::iCheckTheChangeEMailBox()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I will see my updated information </span>
+                            <span class="path">BuyerTests\BuyerAccountContext::iWillSeeMyUpdatedInformation()</span>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="featureResult failed">Feature has failed
+                <span>Scenarios passed : 0%, 
+                Scenarios failed : 100%</span>
+            </div>
+        </div>
+        <div class="feature">
+            <h2>
+                <span id="feat5" class="keyword"> Feature: </span>
+                <span class="title">Verify that a logged in buyer can add products to cart</span>
+            </h2>
+            <p>In order to buy products
+As a buyer user
+I must be able to add to my cart</p>
+            <ul class="tags">
+            </ul>
+            <div class="scenario">
+                <ul class="tags">
+                    <li>@javascript</li>
+                    <li>@insulated</li>
+                </ul>
+                <h3>
+                    <span class="keyword"> Scenario: </span>
+                    <span class="title">Empty Cart</span>
+                </h3>
+                <ol>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Given </span>
+                            <span class="text">I am logged in as "buyer" </span>
+                            <span class="path">CommonTests\LoginContext::iAmLoggedInAs()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I have an empty Cart </span>
+                            <span class="path">BuyerTests\BuyerCartContext::iHaveAnEmptyCart()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">the message "You have no items in your shopping cart." will be shown. </span>
+                            <span class="path">BuyerTests\AnonCartContext::theMessageWillBeShown()</span>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="scenario">
+                <ul class="tags">
+                    <li>@javascript</li>
+                    <li>@insulated</li>
+                </ul>
+                <h3>
+                    <span class="keyword"> Scenario: </span>
+                    <span class="title">Adding product to My Cart</span>
+                </h3>
+                <ol>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Given </span>
+                            <span class="text">I am logged in as "buyer" </span>
+                            <span class="path">CommonTests\LoginContext::iAmLoggedInAs()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I have an empty Cart </span>
+                            <span class="path">BuyerTests\BuyerCartContext::iHaveAnEmptyCart()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">When </span>
+                            <span class="text">I add to cart the "TestAutoDeviceProd" product from listing page </span>
+                            <span class="path">BuyerTests\AnonCartContext::iAddToCartTheProductFromListingPage()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">a number is added next to my cart based on product quantities </span>
+                            <span class="path">BuyerTests\AnonCartContext::aNumberIsAddedNextToMyCartBasedOnProductQuantities()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">A confirmation message is shown </span>
+                            <span class="path">BuyerTests\BuyerCartContext::aConfirmationMessageIsShown()</span>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="scenario">
+                <ul class="tags">
+                    <li>@javascript</li>
+                    <li>@insulated</li>
+                </ul>
+                <h3>
+                    <span class="keyword"> Scenario: </span>
+                    <span class="title">Details on product added to My Cart</span>
+                </h3>
+                <ol>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Given </span>
+                            <span class="text">I am logged in as "buyer" </span>
+                            <span class="path">CommonTests\LoginContext::iAmLoggedInAs()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I have an empty Cart </span>
+                            <span class="path">BuyerTests\BuyerCartContext::iHaveAnEmptyCart()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">When </span>
+                            <span class="text">I add to cart the "TestAutoDeviceProd" product from listing page </span>
+                            <span class="path">BuyerTests\AnonCartContext::iAddToCartTheProductFromListingPage()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I click on My Cart </span>
+                            <span class="path">BuyerTests\AnonCartContext::iClickOnMyCart()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I see the number of items </span>
+                            <span class="path">BuyerTests\AnonCartContext::iSeeTheNumberOfItems()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I see the Cart Subtotal for buyer </span>
+                            <span class="path">BuyerTests\BuyerCartContext::iSeeTheCartSubtotalForBuyer()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I see the Go to Checkout option </span>
+                            <span class="path">BuyerTests\AnonCartContext::iSeeTheGoToCheckoutOption()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I see the Edit item button </span>
+                            <span class="path">BuyerTests\AnonCartContext::iSeeTheEditItemButton()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I see the Delete item button </span>
+                            <span class="path">BuyerTests\AnonCartContext::iSeeTheDeleteItemButton()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I see the View and edit card link </span>
+                            <span class="path">BuyerTests\AnonCartContext::iSeeTheViewAndEditCardLink()</span>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="scenario">
+                <ul class="tags">
+                    <li>@javascript</li>
+                    <li>@insulated</li>
+                </ul>
+                <h3>
+                    <span class="keyword"> Scenario: </span>
+                    <span class="title">Verify that add to cart is shown on the listing page</span>
+                </h3>
+                <ol>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Given </span>
+                            <span class="text">I am logged in as "buyer" </span>
+                            <span class="path">CommonTests\LoginContext::iAmLoggedInAs()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I have an empty Cart </span>
+                            <span class="path">BuyerTests\BuyerCartContext::iHaveAnEmptyCart()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">When </span>
+                            <span class="text">I add to cart the "TestAutoDeviceProd" product from listing page </span>
+                            <span class="path">BuyerTests\AnonCartContext::iAddToCartTheProductFromListingPage()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">a number is added next to my cart based on product quantities </span>
+                            <span class="path">BuyerTests\AnonCartContext::aNumberIsAddedNextToMyCartBasedOnProductQuantities()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">a confirmation message is shown </span>
+                            <span class="path">BuyerTests\AnonCartContext::aConfirmationMessageIsShown()</span>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="featureResult passed">Feature has passed
+            </div>
+        </div>
+        <div class="feature">
+            <h2>
+                <span id="feat6" class="keyword"> Feature: </span>
+                <span class="title">Buyer Restrictions for certain actions</span>
+            </h2>
+            <p>In order to restrict some functionality
+As a buyer
+I must not be able to do certain actions</p>
+            <ul class="tags">
+            </ul>
+            <div class="scenario">
+                <ul class="tags">
+                    <li>@javascript</li>
+                    <li>@insulated</li>
+                </ul>
+                <h3>
+                    <span class="keyword"> Scenario: </span>
+                    <span class="title">Verify that an admin can add a product without a unit price / search listing</span>
+                </h3>
+                <ol>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Given </span>
+                            <span class="text">I am logged in as "buyer" </span>
+                            <span class="path">CommonTests\LoginContext::iAmLoggedInAs()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I search for "NoPriceAutoProduct"; </span>
+                            <span class="path">BuyerTests\BuyerRestrictionsContext::iSearchFor()</span>
+                        </div>
+                    </li>
+                    <li class="failed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">No price is present for the product </span>
+                            <span class="path">BuyerTests\BuyerRestrictionsContext::noPriceIsPresentForTheProduct()</span>
+                        </div>
+                        <pre class="backtrace">Could not find element //*[@id="maincontent"]/div[3]/div[1]/div[2]/div/ol/li[1]/div/a/img</pre>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">Out of stock label is not shown </span>
+                            <span class="path">BuyerTests\BuyerRestrictionsContext::outOfStockLabelIsNotShown()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">Add to cart button is not present </span>
+                            <span class="path">BuyerTests\BuyerRestrictionsContext::addToCartButtonIsNotPresent()</span>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="scenario">
+                <ul class="tags">
+                    <li>@javascript</li>
+                    <li>@insulated</li>
+                </ul>
+                <h3>
+                    <span class="keyword"> Scenario: </span>
+                    <span class="title">Verify that an admin can add a product without a unit price / product details</span>
+                </h3>
+                <ol>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Given </span>
+                            <span class="text">I am logged in as "buyer" </span>
+                            <span class="path">CommonTests\LoginContext::iAmLoggedInAs()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I search for "AutomatedNoPriceProd"; </span>
+                            <span class="path">BuyerTests\BuyerRestrictionsContext::iSearchFor()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">When </span>
+                            <span class="text">I click on first search result </span>
+                            <span class="path">BuyerTests\BuyerRestrictionsContext::iClickOnFirstSearchResult()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">Price is not shown in product details </span>
+                            <span class="path">BuyerTests\BuyerRestrictionsContext::priceIsNotShownInProductDetails()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">Out of stock is not shown in product details </span>
+                            <span class="path">BuyerTests\BuyerRestrictionsContext::outOfStockIsNotShownInProductDetails()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">Add to cart button is not present in product details </span>
+                            <span class="path">BuyerTests\BuyerRestrictionsContext::addToCartButtonIsNotPresentInProductDetails()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">VAt excluded is not shown in product details </span>
+                            <span class="path">BuyerTests\BuyerRestrictionsContext::vatExcludedIsNotShownInProductDetails()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">Notify me when this product is in stock option is not present </span>
+                            <span class="path">BuyerTests\BuyerRestrictionsContext::notifyMeWhenThisProductIsInStockOptionIsNotPresent()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">Notify me when the price drops option is not present </span>
+                            <span class="path">BuyerTests\BuyerRestrictionsContext::notifyMeWhenThePriceDropsOptionIsNotPresent()</span>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="featureResult failed">Feature has failed
+                <span>Scenarios passed : 50%, 
+                Scenarios failed : 50%</span>
+            </div>
+        </div>
+        <div class="feature">
+            <h2>
+                <span id="feat7" class="keyword"> Feature: </span>
+                <span class="title">Verify functionality " forgot password" for a buyer.</span>
+            </h2>
+            <p>In order to login as a buyer
+As an existing user
+I must be able to recover my password</p>
+            <ul class="tags">
+            </ul>
+            <div class="scenario">
+                <ul class="tags">
+                    <li>@javascript</li>
+                    <li>@insulated</li>
+                </ul>
+                <h3>
+                    <span class="keyword"> Scenario: </span>
+                    <span class="title">Invalid credentials</span>
+                </h3>
+                <ol>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Given </span>
+                            <span class="text">I am a buyer and I write in my username "sdferafg@gmail.com" and password "anotherwrongpassword" </span>
+                            <span class="path">BuyerTests\LoginContext::iAmABuyerAndIWriteInMyUsernameAndPassword()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">When </span>
+                            <span class="text">I click sign in button </span>
+                            <span class="path">BuyerTests\LoginContext::iClickSignInButton()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I am notified that username or password is invalid </span>
+                            <span class="path">BuyerTests\LoginContext::iAmNotifiedThatUsernameOrPasswordIsInvalid()</span>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="scenario">
+                <ul class="tags">
+                    <li>@javascript</li>
+                    <li>@insulated</li>
+                    <li>@thursday</li>
+                </ul>
+                <h3>
+                    <span class="keyword"> Scenario: </span>
+                    <span class="title">Forgot Password Cancel Button</span>
+                </h3>
+                <ol>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Given </span>
+                            <span class="text">I am an anonymous user </span>
+                            <span class="path">BuyerTests\LoginContext::iAmAnAnonymousUser()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I go to to myAccount page </span>
+                            <span class="path">BuyerTests\BuyerAccountContext::iGoToToMyAccountPage()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">When </span>
+                            <span class="text">I click on forgot password button </span>
+                            <span class="path">BuyerTests\LoginContext::iClickOnForgotPasswordButton()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I am redirected to password recovery </span>
+                            <span class="path">BuyerTests\LoginContext::iAmRedirectedToPasswordRecovery()</span>
+                        </div>
+                    </li>
+                    <li class="failed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I enter the e-mail and captcha </span>
+                            <span class="path">BuyerTests\LoginContext::iEnterTheEMailAndCaptcha()</span>
+                        </div>
+                        <pre class="backtrace">Could not find element //*[@id='captchaAnswer']</pre>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I click cancel </span>
+                            <span class="path">BuyerTests\LoginContext::iClickCancel()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">E-mail and captcha fields are emptied </span>
+                            <span class="path">BuyerTests\LoginContext::eMailAndCaptchaFieldsAreEmptied()</span>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="featureResult failed">Feature has failed
+                <span>Scenarios passed : 50%, 
+                Scenarios failed : 50%</span>
+            </div>
+        </div>
+        <div class="feature">
+            <h2>
+                <span id="feat8" class="keyword"> Feature: </span>
+                <span class="title">Verify that an anonymus user can browse the website</span>
+            </h2>
+            <p>In order to use https://market.preprod.thingpark.com
+As an anonymous/buyer user
+I need to see website available content</p>
+            <ul class="tags">
+            </ul>
+            <div class="scenario">
+                <ul class="tags">
+                    <li>@javascript</li>
+                    <li>@insulated</li>
+                </ul>
+                <h3>
+                    <span class="keyword"> Scenario: </span>
+                    <span class="title">Page Content Check</span>
+                </h3>
+                <ol>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Given </span>
+                            <span class="text">I am an anonymus user </span>
+                            <span class="path">BuyerTests\LoginContext::iAmAnAnonymusUser()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">When </span>
+                            <span class="text">I go to to thingpark webpage </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iGoToToThingparkWebpage()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I can see the link to "click here !" </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeTheLinkTo()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the search option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeTheSearchOption()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the logo </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeTheLogo()</span>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="scenario">
+                <ul class="tags">
+                    <li>@javascript</li>
+                    <li>@insulated</li>
+                </ul>
+                <h3>
+                    <span class="keyword"> Scenario: </span>
+                    <span class="title">Verify that a visitor can see "terms of use" block when they first access website and it disappears after accepting it (pop-up shows)</span>
+                </h3>
+                <ol>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Given </span>
+                            <span class="text">I am an anonymus user </span>
+                            <span class="path">BuyerTests\LoginContext::iAmAnAnonymusUser()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">a pop-up is shown with Terms of use </span>
+                            <span class="path">BuyerTests\HomePageContentContext::aPopUpIsShownWithTermsOfUse()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I click on read more button </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iClickOnReadMoreButton()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I am redirected to Privacy Policy Page </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iAmRedirectedToPrivacyPolicyPage()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I click on OK </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iClickOnOK()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">the pop-up disappears </span>
+                            <span class="path">BuyerTests\HomePageContentContext::thePopUpDisappears()</span>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="scenario">
+                <ul class="tags">
+                    <li>@javascript</li>
+                    <li>@insulated</li>
+                </ul>
+                <h3>
+                    <span class="keyword"> Scenario: </span>
+                    <span class="title">Verify that an anonymus user can see and access menu</span>
+                </h3>
+                <ol>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Given </span>
+                            <span class="text">I am an anonymous user </span>
+                            <span class="path">BuyerTests\LoginContext::iAmAnAnonymousUser()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I can access the Menu Options </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanAccessTheMenuOptions()</span>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="scenario">
+                <ul class="tags">
+                    <li>@javascript</li>
+                    <li>@insulated</li>
+                    <li>@wednesday</li>
+                </ul>
+                <h3>
+                    <span class="keyword"> Scenario: </span>
+                    <span class="title">Verify that a logged in buyer can see products from multiple vendors</span>
+                </h3>
+                <ol>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Given </span>
+                            <span class="text">I am logged in as "buyer" </span>
+                            <span class="path">CommonTests\LoginContext::iAmLoggedInAs()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I click on "Devices" menu option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iClickOnMenuOption()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I select "Seller" from Filtering Options </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iSelectFromFilteringOptions()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I click on "EUROCOMPOSANT" Seller from Sub Filtering Option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iClickOnSellerFromSubFilteringOption()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I click on show "all" items per page </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iClickOnShowItemsPerPage()</span>
+                        </div>
+                    </li>
+                    <li class="failed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I should see only products from Automated Listing Vendor </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iShouldSeeOnlyProductsFromAutomatedListingVendor()</span>
+                        </div>
+                        <pre class="backtrace">There are more products than the vendor has</pre>
+                    </li>
+                </ol>
+            </div>
+            <div class="scenario">
+                <ul class="tags">
+                    <li>@javascript</li>
+                    <li>@insulated</li>
+                </ul>
+                <h3>
+                    <span class="keyword"> Scenario: </span>
+                    <span class="title">Verify that an user can access advanced search feature</span>
+                </h3>
+                <ol>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Given </span>
+                            <span class="text">I am logged in as "buyer" </span>
+                            <span class="path">CommonTests\LoginContext::iAmLoggedInAs()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">When </span>
+                            <span class="text">I write "test" in search field </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iWriteInSearchField()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I click on Advanced Search </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iClickOnAdvancedSearch()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">Advanced Search popup should appear </span>
+                            <span class="path">BuyerTests\HomePageContentContext::advancedSearchPopupShouldAppear()</span>
+                        </div>
+                    </li>
+                    <li class="failed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I verify that the required fields are shown for the popup </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iVerifyThatTheRequiredFieldsAreShownForThePopup()</span>
+                        </div>
+                        <pre class="backtrace">Mismatch Fields</pre>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">Given </span>
+                            <span class="text">I complete all fields with random data </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCompleteAllFieldsWithRandomData()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I press search </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iPressSearch()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">No Advanced Search items are found </span>
+                            <span class="path">BuyerTests\HomePageContentContext::noAdvancedSearchItemsAreFound()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">Given </span>
+                            <span class="text">I click on Modify your search button </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iClickOnModifyYourSearchButton()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">Advanced Search popup should appear </span>
+                            <span class="path">BuyerTests\HomePageContentContext::advancedSearchPopupShouldAppear()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I complete some fields with relevant data </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCompleteSomeFieldsWithRelevantData()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">When </span>
+                            <span class="text">I press search </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iPressSearch()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">products are shown </span>
+                            <span class="path">BuyerTests\HomePageContentContext::productsAreShown()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I click on Modify your search button </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iClickOnModifyYourSearchButton()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">Advanced Search popup should appear </span>
+                            <span class="path">BuyerTests\HomePageContentContext::advancedSearchPopupShouldAppear()</span>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="scenario">
+                <ul class="tags">
+                    <li>@javascript</li>
+                    <li>@insulated</li>
+                </ul>
+                <h3>
+                    <span class="keyword"> Scenario: </span>
+                    <span class="title">Verify that an anonymus user has access to listing pages from the menu</span>
+                </h3>
+                <ol>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Given </span>
+                            <span class="text">I am an anonymous user </span>
+                            <span class="path">BuyerTests\LoginContext::iAmAnAnonymousUser()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">When </span>
+                            <span class="text">I click on "Devices" menu option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iClickOnMenuOption()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I am on "Devices" page </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iAmOnPage()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the Breadcrumbs as "Devices" </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeTheBreadcrumbsAs()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the page title is "Devices" </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThePageTitleIs()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the Filtering options </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeTheFilteringOptions()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the Sort By option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeTheSortByOption()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the ascending/descending sorting option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeTheAscendingDescendingSortingOption()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the Pagination elements </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThePaginationElements()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the Show "n" products per page option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeTheShowProductsPerPageOption()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the Wish List Area </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeTheWishListArea()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">When </span>
+                            <span class="text">I click on "Gateways" menu option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iClickOnMenuOption()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I am on "Gateways" page </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iAmOnPage()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the page description </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThePageDescription()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the Breadcrumbs as "Gateways" </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeTheBreadcrumbsAs()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the page title is "Gateways" </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThePageTitleIs()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the Filtering options </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeTheFilteringOptions()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the Sort By option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeTheSortByOption()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the ascending/descending sorting option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeTheAscendingDescendingSortingOption()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the Pagination elements </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThePaginationElements()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the Show "n" products per page option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeTheShowProductsPerPageOption()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the Wish List Area </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeTheWishListArea()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">When </span>
+                            <span class="text">I click on "ThingPark Connected" menu option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iClickOnMenuOption()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I am on "ThingPark Connected" page </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iAmOnPage()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the page description </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThePageDescription()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the Breadcrumbs as "ThingPark Connected" </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeTheBreadcrumbsAs()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the page title is "ThingPark Connected" </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThePageTitleIs()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the Filtering options </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeTheFilteringOptions()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the Sort By option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeTheSortByOption()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the ascending/descending sorting option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeTheAscendingDescendingSortingOption()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the Pagination elements </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThePaginationElements()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the Show "n" products per page option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeTheShowProductsPerPageOption()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the Wish List Area </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeTheWishListArea()</span>
+                        </div>
+                    </li>
+                    <li class="failed">
+                        <div class="step">
+                            <span class="keyword">When </span>
+                            <span class="text">I click on "Solutions" menu option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iClickOnMenuOption()</span>
+                        </div>
+                        <pre class="backtrace">Could not find element //*[@class="sections nav-sections"]//*[@class="navigation"]/ul/li/a/span[contains(text(),'Solutions')]</pre>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I am on "Solutions" page </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iAmOnPage()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the Breadcrumbs as "Solutions" </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeTheBreadcrumbsAs()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the page title is "Solutions" </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThePageTitleIs()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the Filtering options </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeTheFilteringOptions()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the Sort By option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeTheSortByOption()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the ascending/descending sorting option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeTheAscendingDescendingSortingOption()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the Pagination elements </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThePaginationElements()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the Show "n" products per page option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeTheShowProductsPerPageOption()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the Wish List Area </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeTheWishListArea()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">When </span>
+                            <span class="text">I click on "Sellers" menu option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iClickOnMenuOption()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I am on "Sellers" page </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iAmOnPage()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the Breadcrumbs as "Sellers" </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeTheBreadcrumbsAs()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the page title is "Sellers" </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThePageTitleIs()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the Filtering options </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeTheFilteringOptions()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the Sort By option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeTheSortByOption()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the ascending/descending sorting option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeTheAscendingDescendingSortingOption()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the Pagination elements </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThePaginationElements()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the Show "n" products per page option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeTheShowProductsPerPageOption()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see the Wish List Area </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeTheWishListArea()</span>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="scenario">
+                <ul class="tags">
+                    <li>@javascript</li>
+                    <li>@insulated</li>
+                </ul>
+                <h3>
+                    <span class="keyword"> Scenario: </span>
+                    <span class="title">Verify that an anonymus user can access content on each listing page</span>
+                </h3>
+                <ol>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Given </span>
+                            <span class="text">I am an anonymous user </span>
+                            <span class="path">BuyerTests\LoginContext::iAmAnAnonymousUser()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">When </span>
+                            <span class="text">I click on "Devices" menu option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iClickOnMenuOption()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I am on "Devices" page </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iAmOnPage()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I click on show "all" items per page </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iClickOnShowItemsPerPage()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see that all products have Add to Wish List option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThatAllProductsHaveAddToWishListOption()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see that all products have Add to comparison list </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThatAllProductsHaveAddToComparisonList()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see that all products have Images </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThatAllProductsHaveImages()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see that all products have Titles </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThatAllProductsHaveTitles()</span>
+                        </div>
+                    </li>
+                    <li class="failed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see that all products have Prices </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThatAllProductsHavePrices()</span>
+                        </div>
+                        <pre class="backtrace">Product TEST PRODUS 2 does not have a Price</pre>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see that all products have Attribute Logo </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThatAllProductsHaveAttributeLogo()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">When </span>
+                            <span class="text">I click on "Gateways" menu option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iClickOnMenuOption()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I am on "Gateways" page </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iAmOnPage()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I click on show "all" items per page </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iClickOnShowItemsPerPage()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see that all products have Add to Wish List option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThatAllProductsHaveAddToWishListOption()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see that all products have Add to comparison list </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThatAllProductsHaveAddToComparisonList()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see that all products have Images </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThatAllProductsHaveImages()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see that all products have Titles </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThatAllProductsHaveTitles()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see that all products have Prices </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThatAllProductsHavePrices()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see that all products have Attribute Logo </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThatAllProductsHaveAttributeLogo()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">When </span>
+                            <span class="text">I click on "ThingPark Connected" menu option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iClickOnMenuOption()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I am on "ThingPark Connected" page </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iAmOnPage()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I click on show "all" items per page </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iClickOnShowItemsPerPage()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see that all products have Add to Wish List option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThatAllProductsHaveAddToWishListOption()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see that all products have Add to comparison list </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThatAllProductsHaveAddToComparisonList()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see that all products have Images </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThatAllProductsHaveImages()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see that all products have Titles </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThatAllProductsHaveTitles()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see that all products have Prices </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThatAllProductsHavePrices()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see that all products have Attribute Logo </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThatAllProductsHaveAttributeLogo()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">When </span>
+                            <span class="text">I click on "Solutions" menu option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iClickOnMenuOption()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I am on "Solutions" page </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iAmOnPage()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I click on show "all" items per page </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iClickOnShowItemsPerPage()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see that all products have Add to Wish List option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThatAllProductsHaveAddToWishListOption()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see that all products have Add to comparison list </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThatAllProductsHaveAddToComparisonList()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see that all products have Images </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThatAllProductsHaveImages()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see that all products have Titles </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThatAllProductsHaveTitles()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see that all products have Prices </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThatAllProductsHavePrices()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see that all products have Attribute Logo </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThatAllProductsHaveAttributeLogo()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">When </span>
+                            <span class="text">I click on "Sellers" menu option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iClickOnMenuOption()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I am on "Sellers" page </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iAmOnPage()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I click on show "all" items per page </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iClickOnShowItemsPerPage()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see that all products do not have Add to Wish List option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThatAllProductsDoNotHaveAddToWishListOption()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see that all products do not have Add to comparison list </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThatAllProductsDoNotHaveAddToComparisonList()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see that all products have Images </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThatAllProductsHaveImages()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see that all products have Titles </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThatAllProductsHaveTitles()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see that all products do not have have Prices </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThatAllProductsDoNotHaveHavePrices()</span>
+                        </div>
+                    </li>
+                    <li class="skipped">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see that all products have Attribute Logo </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThatAllProductsHaveAttributeLogo()</span>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="scenario">
+                <ul class="tags">
+                    <li>@javascript</li>
+                    <li>@insulated</li>
+                </ul>
+                <h3>
+                    <span class="keyword"> Scenario: </span>
+                    <span class="title">Verify that a logged in buyer can access content on each listing page</span>
+                </h3>
+                <ol>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Given </span>
+                            <span class="text">I am logged in as "buyer" </span>
+                            <span class="path">CommonTests\LoginContext::iAmLoggedInAs()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">When </span>
+                            <span class="text">I click on "Devices" menu option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iClickOnMenuOption()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I am on "Devices" page </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iAmOnPage()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">Then </span>
+                            <span class="text">I click on show "all" items per page </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iClickOnShowItemsPerPage()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see that all products have Add to Wish List option </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThatAllProductsHaveAddToWishListOption()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see that all products have Add to comparison list </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThatAllProductsHaveAddToComparisonList()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see that all products have Images </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThatAllProductsHaveImages()</span>
+                        </div>
+                    </li>
+                    <li class="passed">
+                        <div class="step">
+                            <span class="keyword">And </span>
+                            <span class="text">I can see that all products have Titles </span>
+                            <span class="path">BuyerTests\HomePageContentContext::iCanSeeThatAllProductsHaveTitles()</span>
+                        </div>
+                    </li>

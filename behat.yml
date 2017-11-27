@@ -41,18 +41,19 @@ default:
           clear_screenshot_directory: true #clears the screenshot directory when a new test run starts
 
 #    #Used for the reports, if uncommented you will not see the debug in console
-#    emuse\BehatHTMLFormatter\BehatHTMLFormatterExtension:
-#      name: html
-#      renderer: Twig,Behat2
-#      file_name: index
-#      print_args: true
-#      print_outp: true
-#      loop_break: true
-#
-#  #Used for the reports, if uncommented you will not see the debug in console
-#  formatters:
-#    html:
-#      output_path: %paths.base%/report/html
+    emuse\BehatHTMLFormatter\BehatHTMLFormatterExtension:
+      name: html
+      renderer: Twig,Behat2
+      file_name: index
+      print_args: true
+      print_outp: true
+      loop_break: true
+
+  #Used for the reports, if uncommented you will not see the debug in console
+  formatters:
+    html:
+      output_path: %paths.base%/report/html
+
 
 
 #firefox:

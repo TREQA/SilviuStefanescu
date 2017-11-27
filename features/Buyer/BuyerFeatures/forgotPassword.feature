@@ -5,11 +5,11 @@ Feature: Verify functionality " forgot password" for a buyer.
 
   @javascript @insulated
   Scenario: Invalid credentials
-    Given I am a buyer and I write in my username "ipad3.tremend@gmail.com" and password "wrongpassword"
+    Given I am a buyer and I write in my username "sdferafg@gmail.com" and password "anotherwrongpassword"
     When I click sign in button
     Then I am notified that username or password is invalid
 
-  @javascript @insulated
+  @javascript @insulated @thursday
   Scenario: Forgot Password Cancel Button
     Given I am an anonymous user
     And I go to to myAccount page

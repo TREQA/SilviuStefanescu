@@ -18,7 +18,10 @@ class DataItems
     const mailHog = "http://mh.int.actility.com/#";
     const path = "https://market.preprod.thingpark.com/";
 
-    const becomeSellerLink = "https://market.preprod.thingpark.com/seller";
+    // previous link:
+    // const becomeSellerLink = "https://market.preprod.thingpark.com/seller";
+    // replaced with:
+    const becomeSellerLink = "https://market.preprod.thingpark.com/umicrosite/vendor/register/";
     const searchFieldText = "Search entire store here...";
 
     //
@@ -63,6 +66,7 @@ class DataItems
 
     //dummy credentials
     const dummyPassword = "Password123";
+    const dummyOldPassword = "Password122";
     const dummyEmail = "autotest@mail.com";
 
     const dummyBuyerFirstName = "auto";
@@ -105,7 +109,7 @@ class DataItems
 
     const invalidCredentialsMsg = "Invalid login or password.";
     const sellerInvalidCredMsg = "Invalid username or password.";
-    const recoverBuyerPasswordMsg = "To reset your password, enter the email address you use to sign in to ThingPark.";
+    const recoverBuyerPasswordMsg = "Please enter your email address below to receive a password reset link.";
 
     const productSaveMsg = "You saved the product.";
     const vendorSaveMsg= "Vendor was successfully saved";

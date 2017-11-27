@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/behatTests.iml" filepath="$PROJECT_DIR$/.idea/behatTests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/behat_test_silviu.iml" filepath="$PROJECT_DIR$/behat_test_silviu.iml" />
     </modules>
   </component>
 </project>

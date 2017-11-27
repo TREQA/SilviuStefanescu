@@ -1,11 +1,11 @@
-Feature: Check version on admin page feature
-  In order to check version number
+Feature: Check version on admin page
+  In order to check application version number
   As an admin
-  I need to login
+  I need to see app version after I login
 
-  @javascript @insulated  @check_version
-  Scenario: Verify - login as admin
+  @javascript @insulated
+  Scenario: Verify that deployed version is existent in admin
     Given I am an admin and I write in my username "madalina.admin" and password "Madalina12"
     When I click admin sign in button
-    Then I will be logged in and will see version number "app ver. 2.0.0"
+    Then I will be logged in and will see version number
 

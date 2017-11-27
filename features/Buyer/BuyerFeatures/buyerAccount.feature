@@ -3,6 +3,7 @@ Feature: Create Account Feature
   As an anonymous user
   I must be able to create a new account and use it
 
+#  De rezolvat problema cu recaptcha
   @javascript @insulated
   Scenario: Verify that an anonymus user can create a buyer account
     Given I am an anonymous user
@@ -45,7 +46,7 @@ Feature: Create Account Feature
     And I click sign in button
     Then I am notified that username or password is invalid
 
-  @javascript @insulated
+  @javascript @insulated @repairing
   Scenario: Verify that a logged in buyer can change his account information
     Given I am an anonymous user
     When I go to to myAccount page
