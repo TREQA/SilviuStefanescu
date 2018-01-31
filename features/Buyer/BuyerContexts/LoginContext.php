@@ -110,7 +110,7 @@ class LoginContext extends RawMinkContext implements Context
     public function iEnterTheEMailAndCaptcha()
     {
         $this->recoverPasswordPage->getEmailField()->setValue(DataItems::recoverPassEmailInv);
-        $this->recoverPasswordPage->getCaptchaField()->setValue(DataItems::recoverPassCaptchaInv);
+       $this->recoverPasswordPage->getCaptchaField()->setValue(DataItems::recoverPassCaptchaInv);
     }
 
     /**

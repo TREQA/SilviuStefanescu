@@ -3,7 +3,7 @@ Feature: Update Stock as Seller
   As a seller
   i must be able to update the products stock
 
-  @javascript @insulated
+  @javascript @debugging
   Scenario: Verify that a seller can update stock
     Given I am logged in as "seller"
     And I go to Product Manager page

@@ -45,7 +45,7 @@ class DataItems
     const edited = "edited";
 
     const noPriceProd = "NoPriceAutoProduct";
-    const pdfTableTitle = "Technical docs";
+    const pdfTableTitle = "Technical documents";
 
     public static $noPriceProdRand = "You did not sign in correctly or your account is temporarily disabled.";
 

@@ -32,10 +32,12 @@ class ProductDetailsPage extends Utils
     }
 
     public function getPDFTableTitle(){
-        return $this->waitUntilElementPresentAndVisible(DataItems::waitTime,"xpath","//*[@id=\"product-attribute-specs-table\"]/tbody/tr[22]/th");
+        return $this->waitUntilElementPresentAndVisible(DataItems::waitTime,"xpath","//*[@id=\"product-attribute-specs-table\"]/tbody/tr[24]/th");
+
     }
     public function getFirstPDFlink(){
-        return $this->waitUntilElementPresentAndVisible(DataItems::waitTime,"xpath","//*[@data-th=\"Technical docs\"]/ul/li/a");
+        return $this->waitUntilElementPresentAndVisible(DataItems::waitTime,"xpath","//*[@data-th=\"Technical documents\"]/a[1]");
+
 
     }
 

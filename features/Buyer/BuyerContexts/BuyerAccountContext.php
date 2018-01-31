@@ -81,15 +81,20 @@ class BuyerAccountContext extends RawMinkContext implements Context
         $this->createNewAccPage->getConfirmPassField()->setValue(DataItems::dummyPassword);
         expect($this->createNewAccPage->getRememberMeBox()->isChecked())->shouldBe(true);
         echo "3";
-        $this->registerPage->iSwitchToTheFirstIframe();
-        echo "4";
-        $this->registerPage->getReCaptcha()->click();
-        echo "5";
-        $this->registerPage->getCaptchaChecked();
-        echo "6";
-        $this->getSession()->switchToIFrame();
-        echo "7";
+
+        //uncomment when recaptcha is reactivated
+//        $this->registerPage->iSwitchToTheFirstIframe();
+//        echo "4";
+//        $this->registerPage->getReCaptcha()->click();
+//        echo "5";
+//        $this->registerPage->getCaptchaChecked();
+//        echo "6";
+//        $this->getSession()->switchToIFrame();
+//        echo "7";
+
+        $this->registerPage->getTermsAndConditions()->check();
     }
+
 
     /**
      * @Given /^I click on create account$/

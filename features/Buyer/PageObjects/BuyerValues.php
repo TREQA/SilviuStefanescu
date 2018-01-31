@@ -58,7 +58,7 @@ class BuyerValues
 
     //Advanced Search values
 
-    const advSearchFields = ['Name','SKU','Description','Short Description','Unit Price Range','Radio Frequency Band','Certification'];
+    const advSearchFields = ['Name','SKU','Description','Short Description','Unit Price Range','Radio Frequency Band','ThingPark Connected','Certification', 'Manufacturer Part number', 'Band' ];
 
     const advSPopUpName = 'Advanced Search';
     const advSRandomName = 'AdvancedDummyName';

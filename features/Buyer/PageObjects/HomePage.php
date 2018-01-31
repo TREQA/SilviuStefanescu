@@ -230,7 +230,7 @@ class HomePage extends Utils
     public function checkAdvanceSearchFields($expectedFields){
 
         $list = $this->waitUntilElementsPresent(DataItems::waitTime,"xpath","//*[@class='form search advanced']//*[@class=\"fieldset\"]/div/label");
-
+        echo "LISTA ARE ".count($list)." ELEMENTE </br>";
         for ($i = 0; $i < count($list); $i ++){
             $fieldName = $list[$i]->getText();
 

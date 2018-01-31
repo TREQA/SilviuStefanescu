@@ -149,4 +149,9 @@ JS;
     public function getCaptchaChecked(){
         return $this->waitUntilElementPresentAndVisible(DataItems::waitTime,"xpath","//*[@aria-checked='true']");
     }
+
+    //gets the Terms and Conditions check button on new buyer registration page
+    public function getTermsAndConditions(){
+        return $this->waitUntilElementPresentAndVisible(DataItems::waitTime, "xpath", "//*[@id=\"terms_and_conditions\"]");
+    }
 }

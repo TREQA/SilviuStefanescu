@@ -44,4 +44,29 @@ class LoginPage extends Utils
         return $this->waitUntilElementPresent(DataItems::waitTime,"xpath","//*[@class=\"messages\"]");
     }
 
+    // Captcha - added here by Silviu
+
+
+
+    public function iSwitchToTheFirstIframe() {
+        $javascript = <<<JS
+        (function(){
+                    var iframes = document.getElementsByTagName('iframe');
+                    var f = iframes[0];
+                    f.id = "no_name_iframe";
+})()
+JS;
+        $this->getSession()->executeScript($javascript);
+        $this->getSession()->switchToIFrame('no_name_iframe');
+    }
+
+    public function getReCaptcha(){
+        return $this->waitUntilElementPresentAndVisible(DataItems::waitTime,"xpath","//*[@class=\"rc-anchor-center-item rc-anchor-checkbox-label\"]");
+    }
+    public function getCaptchaChecked(){
+        return $this->waitUntilElementPresentAndVisible(DataItems::waitTime,"xpath","//*[@aria-checked='true']");
+    }
+
+
 }
+

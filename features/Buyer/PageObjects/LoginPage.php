@@ -57,4 +57,6 @@ class LoginPage extends Utils
     public function getForgotPasswordButton(){
         return $this->waitUntilelementPresent(DataItems::waitTime,"xpath","//*[@class='action remind']/span");
     }
+
+
 }

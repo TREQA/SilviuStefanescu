@@ -5,6 +5,7 @@ use Behat\Behat\Context\Context;
 use Behat\MinkExtension\Context\RawMinkContext;
 use BuyerPages\MyAccountPage;
 use BuyerPages\HomePage;
+use SellerPages\LoginPage;
 use UtilsPage\Utils;
 use UtilsPage\DataItems;
 
@@ -24,13 +25,19 @@ class LoginContext extends RawMinkContext implements Context
     private $myAccountPage;
     private $utils;
     private $homePage;
+    private $loginPage;
 
 
-    public function __construct(MyAccountPage $myAccountPage, Utils $utils, HomePage $homePage)
+
+
+    public function __construct(MyAccountPage $myAccountPage, Utils $utils, HomePage $homePage, LoginPage $loginPage)
     {
         $this->myAccountPage = $myAccountPage;
         $this->utils=$utils;
         $this->homePage=$homePage;
+        //added for recaptcha
+        $this->loginPage=$loginPage;
+
     }
 
     /**
@@ -90,10 +97,22 @@ class LoginContext extends RawMinkContext implements Context
             case "seller":
                 echo "Logging in as ".$userType;
                 $this->visitPath("udropship/vendor/");
+
                 $this->getSession()->maximizeWindow();
+                sleep(3);
                 $this->utils->waitUntilElementPresentAndVisible(DataItems::waitTime,'xpath',"//*[@id='email']")->setValue(DataItems::sellerMail);
                 $this->getSession()->getPage()->fillField('pass',DataItems::sellerPassword);
-                $this->utils->findElement('xpath','//*[@id="login-form"]/div/div[3]/button')->click();
+
+
+//                //passing the recaptcha that has test secret key
+//                $this->loginPage->iSwitchToTheFirstIframe();
+//                $this->loginPage->getReCaptcha()->click();
+//                $this->loginPage->getCaptchaChecked();
+//                $this->getSession()->switchToIFrame();
+
+                $this->utils->findElement('xpath','//*[@id="login-form"]/div/div[4]/button')->click();
+
+
                 break;
             case "buyer":
                 echo "Logging in as ".$userType;

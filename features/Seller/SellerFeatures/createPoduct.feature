@@ -1,4 +1,4 @@
-Feature: Create Product as a seller
+  Feature: Create Product as a seller
   In order to add products tot he website
   As a seller
   I must be able to create products

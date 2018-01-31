@@ -2,37 +2,102 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba158f9d-ba98-4dc2-9fd8-abf91b2dfac1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/behatTests.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/html/failedScreenshots/features_buyer_buyerfeatures_anoncart_feature_13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/html/failedScreenshots/features_buyer_buyerfeatures_anoncart_feature_7.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/html - Copy/STATUS REPARATE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_admin_adminfeatures_checkversion_feature_7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_buyer_buyerfeatures_anoncart_feature_7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_buyer_buyerfeatures_anonrestrictions_feature_39.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_buyer_buyerfeatures_anonrestrictions_feature_47.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_buyer_buyerfeatures_anonrestrictions_feature_55.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_buyer_buyerfeatures_buyeraccount_feature_18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_buyer_buyerfeatures_buyeraccount_feature_26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_buyer_buyerfeatures_buyeraccount_feature_41.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_buyer_buyerfeatures_buyeraccount_feature_49.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_buyer_buyerfeatures_buyeraccount_feature_7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_buyer_buyerfeatures_buyercart_feature_13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_buyer_buyerfeatures_buyercart_feature_21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_buyer_buyerfeatures_buyercart_feature_34.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_buyer_buyerfeatures_buyerrestrictions_feature_16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_buyer_buyerfeatures_homepagecontent_feature_115.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_buyer_buyerfeatures_homepagecontent_feature_164.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_buyer_buyerfeatures_homepagecontent_feature_27.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_buyer_buyerfeatures_homepagecontent_feature_32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_buyer_buyerfeatures_homepagecontent_feature_41.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_buyer_buyerfeatures_homepagecontent_feature_59.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_buyer_buyerfeatures_homepagecontent_feature_7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_buyer_buyerfeatures_login_feature_7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/html/failedScreenshots/features_buyer_buyerfeatures_buyeraccount_feature_19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/html/failedScreenshots/features_buyer_buyerfeatures_buyeraccount_feature_27.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/html/failedScreenshots/features_buyer_buyerfeatures_buyeraccount_feature_42.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/html/failedScreenshots/features_buyer_buyerfeatures_buyeraccount_feature_50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/html/failedScreenshots/features_buyer_buyerfeatures_buyeraccount_feature_8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/html/failedScreenshots/features_buyer_buyerfeatures_homepagecontent_feature_117.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/html/failedScreenshots/features_buyer_buyerfeatures_homepagecontent_feature_43.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/html/failedScreenshots/features_buyer_buyerfeatures_homepagecontent_feature_61.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_admin_adminfeatures_createproduct_feature_25.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_admin_adminfeatures_createproduct_feature_25.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_admin_adminfeatures_createvendor_feature_29.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_admin_adminfeatures_createvendor_feature_29.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_buyer_buyerfeatures_anoncompare_feature_7.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_buyer_buyerfeatures_anoncompare_feature_7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_buyer_buyerfeatures_buyerrestrictions_feature_8.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_buyer_buyerfeatures_buyerrestrictions_feature_8.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_addproductadmin_feature_19.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_addproductadmin_feature_19.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_advancedpricing_feature_27.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_advancedpricing_feature_27.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_advancedpricing_feature_50.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_advancedpricing_feature_50.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_advancedpricing_feature_7.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_advancedpricing_feature_7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_advancedpricing_feature_71.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_advancedpricing_feature_71.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_approveproduct_feature_21.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_approveproduct_feature_21.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_approveproduct_feature_38.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_approveproduct_feature_38.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_approveproduct_feature_7.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_approveproduct_feature_7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_becomeseller_feature_13.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_becomeseller_feature_13.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_becomeseller_feature_29.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_becomeseller_feature_29.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_becomeseller_feature_7.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_becomeseller_feature_7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_commbuyerselleradmin_feature_103.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_commbuyerselleradmin_feature_103.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_commbuyerselleradmin_feature_113.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_commbuyerselleradmin_feature_113.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_commbuyerselleradmin_feature_150.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_commbuyerselleradmin_feature_150.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_commbuyerselleradmin_feature_165.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_commbuyerselleradmin_feature_165.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_commbuyerselleradmin_feature_172.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_commbuyerselleradmin_feature_172.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_commbuyerselleradmin_feature_49.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_commbuyerselleradmin_feature_49.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_commbuyerselleradmin_feature_7.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_commbuyerselleradmin_feature_7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_enabledisableprod_feature_38.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_enabledisableprod_feature_38.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_enabledisableprod_feature_69.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_enabledisableprod_feature_69.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_enabledisableprod_feature_7.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_enabledisableprod_feature_7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_producturl_feature_22.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_producturl_feature_22.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_producturl_feature_41.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_producturl_feature_41.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_producturl_feature_56.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_producturl_feature_56.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_producturl_feature_7.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_producturl_feature_7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_purchaseproduct_feature_27.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_purchaseproduct_feature_27.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_purchaseproduct_feature_7.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_purchaseproduct_feature_7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_updatestock_feature_7.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_common_commonfeatures_updatestock_feature_7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_seller_sellerfeatures_createpoduct_feature_17.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_seller_sellerfeatures_createpoduct_feature_17.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_seller_sellerfeatures_createpoduct_feature_28.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_seller_sellerfeatures_createpoduct_feature_28.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_seller_sellerfeatures_createpoduct_feature_7.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_seller_sellerfeatures_createpoduct_feature_7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_seller_sellerfeatures_registerseller_feature_16.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_seller_sellerfeatures_registerseller_feature_16.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_seller_sellerfeatures_registerseller_feature_8.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_seller_sellerfeatures_registerseller_feature_8.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_seller_sellerfeatures_shippingrates_feature_22.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_seller_sellerfeatures_shippingrates_feature_22.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_seller_sellerfeatures_shippingrates_feature_5.png" afterPath="$PROJECT_DIR$/report/html - Copy/failedScreenshots/features_seller_sellerfeatures_shippingrates_feature_5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html/failedScreenshots/features_buyer_buyerfeatures_anoncompare_feature_7.png" afterPath="$PROJECT_DIR$/report/html/failedScreenshots/features_buyer_buyerfeatures_anoncompare_feature_7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html/failedScreenshots/features_buyer_buyerfeatures_anonrestrictions_feature_39.png" afterPath="$PROJECT_DIR$/report/html/failedScreenshots/features_buyer_buyerfeatures_anonrestrictions_feature_39.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html/failedScreenshots/features_buyer_buyerfeatures_buyerrestrictions_feature_8.png" afterPath="$PROJECT_DIR$/report/html/failedScreenshots/features_buyer_buyerfeatures_buyerrestrictions_feature_8.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html/failedScreenshots/features_buyer_buyerfeatures_forgotpassword_feature_13.png" afterPath="$PROJECT_DIR$/report/html/failedScreenshots/features_buyer_buyerfeatures_forgotpassword_feature_13.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html/failedScreenshots/features_buyer_buyerfeatures_homepagecontent_feature_34.png" afterPath="$PROJECT_DIR$/report/html/failedScreenshots/features_buyer_buyerfeatures_homepagecontent_feature_34.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/behat.yml" afterPath="$PROJECT_DIR$/behat.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Admin/AdminContexts/CheckVersionContext.php" afterPath="$PROJECT_DIR$/features/Admin/AdminContexts/CheckVersionContext.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Admin/AdminFeatures/checkVersion.feature" afterPath="$PROJECT_DIR$/features/Admin/AdminFeatures/checkVersion.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Buyer/BuyerContexts/AnonCompareContext.php" afterPath="$PROJECT_DIR$/features/Buyer/BuyerContexts/AnonCompareContext.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Buyer/BuyerContexts/AnonRestrictionsContext.php" afterPath="$PROJECT_DIR$/features/Buyer/BuyerContexts/AnonRestrictionsContext.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Buyer/BuyerContexts/BuyerAccountContext.php" afterPath="$PROJECT_DIR$/features/Buyer/BuyerContexts/BuyerAccountContext.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Buyer/BuyerFeatures/anonCompare.feature" afterPath="$PROJECT_DIR$/features/Buyer/BuyerFeatures/anonCompare.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Buyer/BuyerFeatures/anonRestrictions.feature" afterPath="$PROJECT_DIR$/features/Buyer/BuyerFeatures/anonRestrictions.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Buyer/BuyerContexts/HomePageContentContext.php" afterPath="$PROJECT_DIR$/features/Buyer/BuyerContexts/HomePageContentContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Buyer/BuyerContexts/LoginContext.php" afterPath="$PROJECT_DIR$/features/Buyer/BuyerContexts/LoginContext.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Buyer/BuyerFeatures/buyerAccount.feature" afterPath="$PROJECT_DIR$/features/Buyer/BuyerFeatures/buyerAccount.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Buyer/BuyerFeatures/buyerCart.feature" afterPath="$PROJECT_DIR$/features/Buyer/BuyerFeatures/buyerCart.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Buyer/BuyerFeatures/buyerRestrictions.feature" afterPath="$PROJECT_DIR$/features/Buyer/BuyerFeatures/buyerRestrictions.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Buyer/BuyerFeatures/forgotPassword.feature" afterPath="$PROJECT_DIR$/features/Buyer/BuyerFeatures/forgotPassword.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Buyer/BuyerFeatures/homePageContent.feature" afterPath="$PROJECT_DIR$/features/Buyer/BuyerFeatures/homePageContent.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Buyer/BuyerFeatures/login.feature" afterPath="$PROJECT_DIR$/features/Buyer/BuyerFeatures/login.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Buyer/PageObjects/BuyerValues.php" afterPath="$PROJECT_DIR$/features/Buyer/PageObjects/BuyerValues.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Buyer/PageObjects/HomePage.php" afterPath="$PROJECT_DIR$/features/Buyer/PageObjects/HomePage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Buyer/PageObjects/ListProductsPage.php" afterPath="$PROJECT_DIR$/features/Buyer/PageObjects/ListProductsPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Buyer/PageObjects/LoginPage.php" afterPath="$PROJECT_DIR$/features/Buyer/PageObjects/LoginPage.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Buyer/PageObjects/ProductDetailsPage.php" afterPath="$PROJECT_DIR$/features/Buyer/PageObjects/ProductDetailsPage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Buyer/PageObjects/RecoverPasswordPage.php" afterPath="$PROJECT_DIR$/features/Buyer/PageObjects/RecoverPasswordPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Common/CommonContexts/LoginContext.php" afterPath="$PROJECT_DIR$/features/Common/CommonContexts/LoginContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Common/CommonFeatures/updateStock.feature" afterPath="$PROJECT_DIR$/features/Common/CommonFeatures/updateStock.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Seller/PageObjects/LoginPage.php" afterPath="$PROJECT_DIR$/features/Seller/PageObjects/LoginPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Seller/PageObjects/RegisterPage.php" afterPath="$PROJECT_DIR$/features/Seller/PageObjects/RegisterPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Seller/SellerFeatures/createPoduct.feature" afterPath="$PROJECT_DIR$/features/Seller/SellerFeatures/createPoduct.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Utilities/DataItems.php" afterPath="$PROJECT_DIR$/features/Utilities/DataItems.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Utilities/Utils.php" afterPath="$PROJECT_DIR$/features/Utilities/Utils.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html - Copy/index.html" afterPath="$PROJECT_DIR$/report/html - Copy/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/html/index.html" afterPath="$PROJECT_DIR$/report/html/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ocramius/package-versions/src/PackageVersions/Versions.php" afterPath="$PROJECT_DIR$/vendor/ocramius/package-versions/src/PackageVersions/Versions.php" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,77 +110,42 @@
   <component name="ComposerSettings" doNotAsk="true" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="behat.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="behat.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/behat.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="37" column="20" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+            <state relative-caret-position="600">
+              <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forgotPassword.feature" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/features/Buyer/BuyerFeatures/forgotPassword.feature">
+      <file leaf-file-name="homePageContent.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/Buyer/BuyerFeatures/homePageContent.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="25">
+              <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="anonCompare.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/Buyer/BuyerFeatures/anonCompare.feature">
+      <file leaf-file-name="HomePageContentContext.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/Buyer/BuyerContexts/HomePageContentContext.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginContext.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/Buyer/BuyerContexts/LoginContext.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="111" column="45" lean-forward="false" selection-start-line="111" selection-start-column="45" selection-end-line="111" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataItems.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/Utilities/DataItems.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="111" column="108" lean-forward="false" selection-start-line="111" selection-start-column="108" selection-end-line="111" selection-end-column="108" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RecoverPasswordPage.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/Buyer/PageObjects/RecoverPasswordPage.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginPage.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/Buyer/PageObjects/LoginPage.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="52" column="20" lean-forward="false" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+            <state relative-caret-position="12575">
+              <caret line="514" column="6" lean-forward="false" selection-start-line="514" selection-start-column="6" selection-end-line="514" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>recaptcha</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -128,24 +158,31 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/features/Buyer/PageObjects/LoginPage.php" />
         <option value="$PROJECT_DIR$/features/Utilities/Utils.php" />
-        <option value="$PROJECT_DIR$/features/Buyer/BuyerContexts/BuyerAccountContext.php" />
         <option value="$PROJECT_DIR$/features/Buyer/BuyerFeatures/buyerCart.feature" />
-        <option value="$PROJECT_DIR$/features/Buyer/PageObjects/HomePage.php" />
-        <option value="$PROJECT_DIR$/features/Buyer/BuyerFeatures/homePageContent.feature" />
-        <option value="$PROJECT_DIR$/features/Buyer/BuyerContexts/HomePageContentContext.php" />
-        <option value="$PROJECT_DIR$/features/Buyer/PageObjects/BuyerValues.php" />
         <option value="$PROJECT_DIR$/features/Buyer/PageObjects/ListProductsPage.php" />
-        <option value="$PROJECT_DIR$/behat.yml" />
         <option value="$PROJECT_DIR$/features/Buyer/PageObjects/CartPopupPage.php" />
-        <option value="$PROJECT_DIR$/features/Buyer/PageObjects/ProductDetailsPage.php" />
         <option value="$PROJECT_DIR$/features/Buyer/BuyerFeatures/anonCart.feature" />
-        <option value="$PROJECT_DIR$/features/Buyer/BuyerFeatures/anonRestrictions.feature" />
-        <option value="$PROJECT_DIR$/features/Buyer/BuyerFeatures/buyerAccount.feature" />
-        <option value="$PROJECT_DIR$/features/Buyer/BuyerFeatures/forgotPassword.feature" />
-        <option value="$PROJECT_DIR$/features/Utilities/DataItems.php" />
         <option value="$PROJECT_DIR$/features/Buyer/PageObjects/RecoverPasswordPage.php" />
+        <option value="$PROJECT_DIR$/features/Buyer/PageObjects/HomePage.php" />
+        <option value="$PROJECT_DIR$/features/Buyer/BuyerFeatures/login.feature" />
+        <option value="$PROJECT_DIR$/features/Utilities/DataItems.php" />
+        <option value="$PROJECT_DIR$/features/Seller/SellerFeatures/createPoduct.feature" />
+        <option value="$PROJECT_DIR$/features/Seller/PageObjects/RegisterPage.php" />
+        <option value="$PROJECT_DIR$/features/Buyer/BuyerFeatures/buyerAccount.feature" />
+        <option value="$PROJECT_DIR$/features/Buyer/PageObjects/ProductDetailsPage.php" />
+        <option value="$PROJECT_DIR$/features/Buyer/BuyerFeatures/anonRestrictions.feature" />
+        <option value="$PROJECT_DIR$/features/Buyer/PageObjects/LoginPage.php" />
+        <option value="$PROJECT_DIR$/features/Seller/PageObjects/LoginPage.php" />
+        <option value="$PROJECT_DIR$/features/Common/CommonFeatures/updateStock.feature" />
+        <option value="$PROJECT_DIR$/features/Common/CommonContexts/LoginContext.php" />
+        <option value="$PROJECT_DIR$/features/Buyer/BuyerContexts/BuyerAccountContext.php" />
+        <option value="$PROJECT_DIR$/features/Buyer/BuyerContexts/LoginContext.php" />
+        <option value="$PROJECT_DIR$/features/Buyer/BuyerFeatures/forgotPassword.feature" />
+        <option value="$PROJECT_DIR$/features/Buyer/PageObjects/BuyerValues.php" />
+        <option value="$PROJECT_DIR$/features/Buyer/BuyerContexts/HomePageContentContext.php" />
+        <option value="$PROJECT_DIR$/features/Buyer/BuyerFeatures/homePageContent.feature" />
+        <option value="$PROJECT_DIR$/behat.yml" />
       </list>
     </option>
   </component>
@@ -157,10 +194,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2159" />
-    <option name="y" value="7" />
-    <option name="width" value="1400" />
-    <option name="height" value="990" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -177,8 +214,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,33 +259,48 @@
               <item name="behat_test_silviu" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
               <item name="Common" type="462c0819:PsiDirectoryNode" />
-              <item name="CommonContexts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="behat_test_silviu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="behat_test_silviu" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="Common" type="462c0819:PsiDirectoryNode" />
               <item name="CommonFeatures" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="behat_test_silviu" type="b2602c69:ProjectViewProjectNode" />
               <item name="behat_test_silviu" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="Seller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="behat_test_silviu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="behat_test_silviu" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="Seller" type="462c0819:PsiDirectoryNode" />
+              <item name="PageObjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="behat_test_silviu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="behat_test_silviu" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="Seller" type="462c0819:PsiDirectoryNode" />
+              <item name="SellerContexts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="behat_test_silviu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="behat_test_silviu" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="Seller" type="462c0819:PsiDirectoryNode" />
+              <item name="SellerFeatures" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="SearchEverywhereHistoryKey" value="wednesday&#9;null&#9;null" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -365,35 +417,47 @@
       <workItem from="1511444580682" duration="1128000" />
       <workItem from="1511450524722" duration="1856000" />
       <workItem from="1511453650959" duration="4720000" />
+      <workItem from="1511774460995" duration="1332000" />
+      <workItem from="1511794155943" duration="814000" />
+      <workItem from="1511796610972" duration="5480000" />
+      <workItem from="1511849268411" duration="1703000" />
+      <workItem from="1511859959889" duration="3502000" />
+      <workItem from="1511882120105" duration="5416000" />
+      <workItem from="1511943573074" duration="4219000" />
+      <workItem from="1512374312976" duration="2162000" />
+      <workItem from="1512482243304" duration="5017000" />
+      <workItem from="1512540655775" duration="41000" />
+      <workItem from="1512565409572" duration="3618000" />
+      <workItem from="1512630536886" duration="929000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26116000" />
+    <option name="totallyTimeSpent" value="60349000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1911" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1796875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21041666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -414,112 +478,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/features/Buyer/BuyerContexts/HomePageContentContext.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4900">
-          <caret line="196" column="41" lean-forward="true" selection-start-line="196" selection-start-column="41" selection-end-line="196" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Buyer/PageObjects/BuyerValues.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1250">
-          <caret line="50" column="75" lean-forward="false" selection-start-line="50" selection-start-column="75" selection-end-line="50" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Buyer/PageObjects/HomePage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3350">
-          <caret line="135" column="0" lean-forward="true" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Utilities/Utils.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1925">
-          <caret line="77" column="20" lean-forward="false" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Utilities/DataItems.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Buyer/PageObjects/ListProductsPage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3450">
-          <caret line="138" column="20" lean-forward="false" selection-start-line="138" selection-start-column="14" selection-end-line="138" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Buyer/BuyerFeatures/buyerAccount.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Buyer/BuyerContexts/LoginContext.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="72" column="20" lean-forward="false" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Buyer/BuyerContexts/BuyerAccountContext.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7675">
-          <caret line="320" column="0" lean-forward="true" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Utilities/DataItems.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="65" column="40" lean-forward="false" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/behat/mink/src/Element/NodeElement.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4925">
-          <caret line="204" column="50" lean-forward="false" selection-start-line="204" selection-start-column="50" selection-end-line="204" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Seller/PageObjects/RegisterPage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3575">
-          <caret line="149" column="54" lean-forward="false" selection-start-line="149" selection-start-column="54" selection-end-line="149" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Buyer/PageObjects/LoginPage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="33" column="59" lean-forward="false" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Buyer/PageObjects/ProductDetailsPage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/Buyer/BuyerContexts/AnonCartContext.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1281">
           <caret line="74" column="10" lean-forward="false" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -541,7 +503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -581,40 +542,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/behat/mink/src/Element/NodeElement.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="204" column="50" lean-forward="false" selection-start-line="204" selection-start-column="50" selection-end-line="204" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Seller/PageObjects/RegisterPage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="149" column="54" lean-forward="false" selection-start-line="149" selection-start-column="54" selection-end-line="149" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Buyer/BuyerContexts/AnonRestrictionsContext.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="120" column="54" lean-forward="false" selection-start-line="120" selection-start-column="45" selection-end-line="120" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Buyer/BuyerFeatures/buyerCart.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/Buyer/BuyerContexts/BuyerCartContext.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -622,6 +553,182 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Buyer/PageObjects/CartPopupPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="17" column="102" lean-forward="false" selection-start-line="17" selection-start-column="102" selection-end-line="17" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Buyer/BuyerContexts/AnonCartContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="84" column="42" lean-forward="true" selection-start-line="84" selection-start-column="42" selection-end-line="84" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Buyer/BuyerFeatures/anonCompare.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/behat/mink/src/Element/NodeElement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="182" column="20" lean-forward="false" selection-start-line="182" selection-start-column="20" selection-end-line="182" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Buyer/BuyerFeatures/anonCart.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Buyer/BuyerContexts/AnonRestrictionsContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="120" column="56" lean-forward="false" selection-start-line="120" selection-start-column="56" selection-end-line="120" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Buyer/PageObjects/ProductDetailsPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="34" column="139" lean-forward="false" selection-start-line="34" selection-start-column="139" selection-end-line="34" selection-end-column="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Seller/SellerFeatures/shippingRates.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3317">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Seller/SellerFeatures/login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Seller/SellerFeatures/registerSeller.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Seller/SellerContexts/CreateProductContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="42" column="20" lean-forward="false" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Buyer/BuyerFeatures/anonRestrictions.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="37" column="24" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Buyer/PageObjects/LoginPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="59" column="4" lean-forward="false" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Utilities/DataItems.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="61" column="40" lean-forward="false" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Seller/PageObjects/RegisterPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="144" column="0" lean-forward="true" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/behat/mink/src/Element/Element.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3325">
+          <caret line="143" column="20" lean-forward="false" selection-start-line="143" selection-start-column="20" selection-end-line="143" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Utilities/Utils.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3975">
+          <caret line="159" column="30" lean-forward="false" selection-start-line="159" selection-start-column="30" selection-end-line="159" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Seller/PageObjects/LoginPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/behat/mink/src/Session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3325">
+          <caret line="141" column="5" lean-forward="false" selection-start-line="141" selection-start-column="5" selection-end-line="141" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/behat/mink-extension/src/Behat/MinkExtension/Context/RawMinkContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3050">
+          <caret line="130" column="44" lean-forward="false" selection-start-line="130" selection-start-column="44" selection-end-line="130" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Common/CommonContexts/LoginContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding>
+            <element signature="e#30#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Common/CommonFeatures/updateStock.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Buyer/BuyerContexts/BuyerAccountContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="92" column="19" lean-forward="false" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
+          <folding>
+            <element signature="e#120#152#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Buyer/BuyerFeatures/buyerAccount.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -633,38 +740,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/Utilities/Utils.php">
+    <entry file="file://$PROJECT_DIR$/features/Seller/PageObjects/AddProductPage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1925">
-          <caret line="77" column="20" lean-forward="false" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Seller/SellerFeatures/createPoduct.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-274">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_PLUGINS_DIR$/php/lib/php.jar!/stubs/intl/intl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="2282" column="10" lean-forward="false" selection-start-line="2282" selection-start-column="10" selection-end-line="2282" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Buyer/BuyerFeatures/login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Buyer/BuyerContexts/LoginContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="106" column="7" lean-forward="true" selection-start-line="106" selection-start-column="7" selection-end-line="106" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Buyer/BuyerFeatures/buyerCart.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Buyer/BuyerFeatures/forgotPassword.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Buyer/PageObjects/RecoverPasswordPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/Buyer/PageObjects/HomePage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3350">
-          <caret line="135" column="0" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+        <state relative-caret-position="292">
+          <caret line="175" column="20" lean-forward="false" selection-start-line="175" selection-start-column="20" selection-end-line="175" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/Buyer/PageObjects/BuyerValues.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1250">
-          <caret line="50" column="75" lean-forward="false" selection-start-line="50" selection-start-column="75" selection-end-line="50" selection-end-column="75" />
+        <state relative-caret-position="282">
+          <caret line="60" column="140" lean-forward="false" selection-start-line="60" selection-start-column="140" selection-end-line="60" selection-end-column="140" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/Buyer/PageObjects/ListProductsPage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="138" column="20" lean-forward="false" selection-start-line="138" selection-start-column="14" selection-end-line="138" selection-end-column="38" />
+        <state relative-caret-position="308">
+          <caret line="228" column="30" lean-forward="false" selection-start-line="228" selection-start-column="30" selection-end-line="228" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/Buyer/BuyerContexts/HomePageContentContext.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="196" column="41" lean-forward="false" selection-start-line="196" selection-start-column="41" selection-end-line="196" selection-end-column="41" />
+        <state relative-caret-position="12575">
+          <caret line="514" column="6" lean-forward="false" selection-start-line="514" selection-start-column="6" selection-end-line="514" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -672,118 +829,15 @@
     <entry file="file://$PROJECT_DIR$/features/Buyer/BuyerFeatures/homePageContent.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
-          <caret line="39" column="41" lean-forward="false" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Buyer/PageObjects/CartPopupPage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="17" column="102" lean-forward="false" selection-start-line="17" selection-start-column="102" selection-end-line="17" selection-end-column="102" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Buyer/BuyerContexts/AnonCartContext.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="84" column="42" lean-forward="true" selection-start-line="84" selection-start-column="42" selection-end-line="84" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Buyer/PageObjects/ProductDetailsPage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" column="78" lean-forward="false" selection-start-line="21" selection-start-column="78" selection-end-line="21" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Buyer/BuyerFeatures/anonCart.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/behat.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="37" column="20" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Buyer/BuyerContexts/BuyerAccountContext.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="123" column="20" lean-forward="false" selection-start-line="123" selection-start-column="20" selection-end-line="123" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Buyer/PageObjects/LoginPage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="52" column="20" lean-forward="false" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Buyer/BuyerFeatures/anonCompare.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Buyer/BuyerFeatures/anonRestrictions.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="2" selection-end-line="43" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Buyer/BuyerFeatures/buyerAccount.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Utilities/DataItems.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="111" column="108" lean-forward="false" selection-start-line="111" selection-start-column="108" selection-end-line="111" selection-end-column="108" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Buyer/BuyerContexts/LoginContext.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="111" column="45" lean-forward="false" selection-start-line="111" selection-start-column="45" selection-end-line="111" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Buyer/PageObjects/RecoverPasswordPage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Buyer/BuyerFeatures/forgotPassword.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="600">
+          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding />
         </state>
       </provider>

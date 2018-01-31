@@ -55,7 +55,6 @@ default:
       output_path: %paths.base%/report/html
 
 
-
 #firefox:
 #  extensions:
 #    Behat\MinkExtension:

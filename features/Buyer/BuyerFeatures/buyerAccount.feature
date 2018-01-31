@@ -3,7 +3,6 @@ Feature: Create Account Feature
   As an anonymous user
   I must be able to create a new account and use it
 
-#  De rezolvat problema cu recaptcha
   @javascript @insulated
   Scenario: Verify that an anonymus user can create a buyer account
     Given I am an anonymous user

@@ -30,7 +30,7 @@ Feature: Verify that an anonymus user can browse the website
     Given I am an anonymous user
     Then I can access the Menu Options
 
-  @javascript @insulated @wednesday
+  @javascript @insulated @de_verificat_ce_inseamna_Automated_Listing_Vendor
   Scenario: Verify that a logged in buyer can see products from multiple vendors
     Given I am logged in as "buyer"
     And I click on "Devices" menu option
@@ -57,7 +57,7 @@ Feature: Verify that an anonymus user can browse the website
     And I click on Modify your search button
     Then Advanced Search popup should appear
 
-  @javascript @insulated
+  @javascript @insulated @FAIL_pt_ca_sellers_nu_are_filtering_options
   Scenario: Verify that an anonymus user has access to listing pages from the menu
     Given I am an anonymous user
     When I click on "Devices" menu option
@@ -92,16 +92,16 @@ Feature: Verify that an anonymus user can browse the website
     And I can see the Pagination elements
     And I can see the Show "n" products per page option
     And I can see the Wish List Area
-    When I click on "Solutions" menu option
-    Then I am on "Solutions" page
-    And I can see the Breadcrumbs as "Solutions"
-    And I can see the page title is "Solutions"
-    And I can see the Filtering options
-    And I can see the Sort By option
-    And I can see the ascending/descending sorting option
-    And I can see the Pagination elements
-    And I can see the Show "n" products per page option
-    And I can see the Wish List Area
+#    When I click on "Solutions" menu option
+#    Then I am on "Solutions" page
+#    And I can see the Breadcrumbs as "Solutions"
+#    And I can see the page title is "Solutions"
+#    And I can see the Filtering options
+#    And I can see the Sort By option
+#    And I can see the ascending/descending sorting option
+#    And I can see the Pagination elements
+#    And I can see the Show "n" products per page option
+#    And I can see the Wish List Area
     When I click on "Sellers" menu option
     Then I am on "Sellers" page
     And I can see the Breadcrumbs as "Sellers"
@@ -113,7 +113,7 @@ Feature: Verify that an anonymus user can browse the website
     And I can see the Show "n" products per page option
     And I can see the Wish List Area
 
-  @javascript @insulated
+  @javascript @insulated @debugging_now @Nu_da_FAIL_la_produse_fara_pret @Ignora_pagina_Solutions
   Scenario: Verify that an anonymus user can access content on each listing page
     Given I am an anonymous user
     When I click on "Devices" menu option
@@ -143,15 +143,15 @@ Feature: Verify that an anonymus user can browse the website
     And I can see that all products have Titles
     And I can see that all products have Prices
     And I can see that all products have Attribute Logo
-    When I click on "Solutions" menu option
-    Then I am on "Solutions" page
-    Then I click on show "all" items per page
-    And I can see that all products have Add to Wish List option
-    And I can see that all products have Add to comparison list
-    And I can see that all products have Images
-    And I can see that all products have Titles
-    And I can see that all products have Prices
-    And I can see that all products have Attribute Logo
+#    When I click on "Solutions" menu option
+#    Then I am on "Solutions" page
+#    Then I click on show "all" items per page
+#    And I can see that all products have Add to Wish List option
+#    And I can see that all products have Add to comparison list
+#    And I can see that all products have Images
+#    And I can see that all products have Titles
+#    And I can see that all products have Prices
+#    And I can see that all products have Attribute Logo
     When I click on "Sellers" menu option
     Then I am on "Sellers" page
     Then I click on show "all" items per page
